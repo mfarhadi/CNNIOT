@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-21] The critical path consists of the following:&#xA;&#x9;'call' operation ('tmp_3', deeplib/main_backup.cpp:68) to 'Axi_Transfer' (3.37 ns)&#xA;&#x9;'sitofp' operation ('Temproray', deeplib/main_backup.cpp:68) (6.41 ns)" projectName="deeplib" solutionName="solution1" date="2018-05-16T07:38:29.691-0700" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] Estimated clock period (9.7844ns) exceeds the target (target clock period: 10ns, clock uncertainty: 1.25ns, effective delay budget: 8.75ns)." projectName="deeplib" solutionName="solution1" date="2018-05-16T07:38:29.689-0700" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] 'Loop-1' (deeplib/main_backup.cpp:45:15) in function 'cnn' is an infinite loop." projectName="deeplib" solutionName="solution1" date="2018-05-16T07:38:29.271-0700" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'in_data.data.V' (deeplib/main_backup.cpp:32)." projectName="deeplib" solutionName="solution1" date="2018-05-16T07:38:25.924-0700" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'out_data.data.V' (deeplib/main_backup.cpp:32)." projectName="deeplib" solutionName="solution1" date="2018-05-16T07:38:25.726-0700" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

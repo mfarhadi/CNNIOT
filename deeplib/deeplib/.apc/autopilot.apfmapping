@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="mmult.h" path="/home/common/FPGA/deeplib/deeplib/mmult.h"/>
+    <originFiles name="main_backup.cpp" path="/home/common/FPGA/deeplib/deeplib/main_backup.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="test.cpp" path="/home/common/FPGA/deeplib/deeplib/test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

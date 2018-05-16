@@ -1,0 +1,746 @@
+INFO: [HLS 200-0] Workspace /home/common/FPGA/deeplib/deeplib/solution1 opened at Wed May 16 07:38:49 MST 2018
+Execute     config_clock -quiet -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Command     config_clock returned 0; 0 sec.
+Execute     open_platform DefaultPlatform 
+Command     open_platform returned 0; 0 sec.
+Execute     import_lib /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.lib 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/xilinx_interface.lib 
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.lib 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.lib 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.lib 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.lib 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.lib 
+Command           ap_source returned 0; 0 sec.
+Command         ap_source returned 0; 0 sec.
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.lib 
+Command         ap_source returned 0; 0 sec.
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.lib 
+Command         ap_source returned 0; 0 sec.
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.lib 
+Command         ap_source returned 0; 0 sec.
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.lib 
+Command         ap_source returned 0; 0 sec.
+Command       ap_source returned 0; 0.01 sec.
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_old.lib 
+Command       ap_source returned 0; 0 sec.
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_vivado.lib 
+Command       ap_source returned 0; 0 sec.
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.hlp 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/target_info.tcl 
+Command         ap_source returned 0; 0 sec.
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.hlp 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.hlp 
+Command           ap_source returned 0; 0 sec.
+Command         ap_source returned 0; 0 sec.
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.hlp 
+Command         ap_source returned 0; 0 sec.
+Command       ap_source returned 0; 0 sec.
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/dsp48e1.hlp 
+Command       ap_source returned 0; 0 sec.
+Execute       get_default_platform 
+Command       get_default_platform returned 0; 0 sec.
+Execute       config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Command       config_chip_info returned 0; 0 sec.
+Execute       config_chip_info -quiet -speed medium 
+Command       config_chip_info returned 0; 0 sec.
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.hlp 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/target_info.tcl 
+Command         ap_source returned 0; 0 sec.
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.hlp 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.hlp 
+Command           ap_source returned 0; 0 sec.
+Command         ap_source returned 0; 0 sec.
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.hlp 
+Command         ap_source returned 0; 0 sec.
+Command       ap_source returned 0; 0.01 sec.
+Command     import_lib returned 0; 0.04 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
+Command             ap_source returned 0; 0.01 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
+Command             ap_source returned 0; 0.01 sec.
+Command           ap_source returned 0; 0.02 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source returned 0; 0.13 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
+Command           ap_source returned 0; 0 sec.
+Command         ap_source returned 0; 0.18 sec.
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
+Command         ap_source returned 0; 0 sec.
+Command       ap_source returned 0; 0.18 sec.
+Command     ap_source returned 0; 0.19 sec.
+Execute     open_platform DefaultPlatform 
+Command     open_platform returned 0; 0 sec.
+Execute     import_lib /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv7.lib 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_hp.lib 
+Command         ap_source returned 0; 0 sec.
+Command       ap_source returned 0; 0.01 sec.
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv.hlp 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.hlp 
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/target_info.tcl 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.hlp 
+Command             ap_source returned 0; 0 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.hlp 
+Command             ap_source returned 0; 0 sec.
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.hlp 
+Command           ap_source returned 0; 0 sec.
+Command         ap_source returned 0; 0.01 sec.
+Command       ap_source returned 0; 0.01 sec.
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_hp.hlp 
+Command       ap_source returned 0; 0 sec.
+Command     import_lib returned 0; 0.04 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
+Command       ap_source returned 0; 0 sec.
+Command     ap_source returned 0; 0 sec.
+Execute     set_part xc7z020clg400-1 
+Execute       add_library xilinx/zynq/zynq:xc7z020:clg400:-1 
+Execute         get_default_platform 
+Command         get_default_platform returned 0; 0 sec.
+Execute         license_isbetapart xc7z020 
+Command         license_isbetapart returned 1; 0.01 sec.
+Execute         get_default_platform 
+Command         get_default_platform returned 0; 0 sec.
+Execute         config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Command         config_chip_info returned 0; 0 sec.
+Execute         config_chip_info -quiet -speed slow 
+Command         config_chip_info returned 0; 0 sec.
+Command       add_library returned 0; 0.02 sec.
+Execute       add_library xilinx/zynq/zynq_fpv6 
+Execute         get_default_platform 
+Command         get_default_platform returned 0; 0 sec.
+Command       add_library returned 0; 0 sec.
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg400-1'
+Execute       get_default_platform 
+Command       get_default_platform returned 0; 0 sec.
+Command     set_part returned 0; 0.06 sec.
+Execute     get_default_platform 
+Command     get_default_platform returned 0; 0 sec.
+Execute     config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Command     config_chip_info returned 0; 0 sec.
+Execute     config_chip_info -quiet -speed slow 
+Command     config_chip_info returned 0; 0 sec.
+Command   open_solution returned 0; 0.35 sec.
+Execute   export_design -rtl verilog -format ip_catalog 
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
+Command       ap_source returned 0; 0 sec.
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
+Command             ap_source returned 0; 0.01 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
+Command             ap_source returned 0; 0.01 sec.
+Command           ap_source returned 0; 0.02 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source returned 0; 0.12 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
+Command           ap_source returned 0; 0 sec.
+Command         ap_source returned 0; 0.17 sec.
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
+Command         ap_source returned 0; 0 sec.
+Command       ap_source returned 0; 0.18 sec.
+Command     ap_source returned 0; 0.18 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
+Command       ap_source returned 0; 0.01 sec.
+Command     ap_source returned 0; 0.01 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
+Command       ap_source returned 0; 0 sec.
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
+Command             ap_source returned 0; 0 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
+Command             ap_source returned 0; 0.01 sec.
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source returned 0; 0.12 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
+Command           ap_source returned 0; 0 sec.
+Command         ap_source returned 0; 0.17 sec.
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
+Command         ap_source returned 0; 0 sec.
+Command       ap_source returned 0; 0.17 sec.
+Command     ap_source returned 0; 0.17 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
+Command       ap_source returned 0; 0.01 sec.
+Command     ap_source returned 0; 0.01 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.compgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.compgen.tcl 
+Command     ap_source returned 0; 0.13 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.compgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.compgen.tcl 
+Command     ap_source returned 0; 0.01 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.compgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.compgen.tcl 
+Command     ap_source returned 0; 0.01 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.constraint.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.constraint.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.constraint.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.constraint.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
+Command       ap_source returned 0; 0 sec.
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
+Command             ap_source returned 0; 0.01 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
+Command             ap_source returned 0; 0.01 sec.
+Command           ap_source returned 0; 0.02 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source returned 0; 0.12 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
+Command           ap_source returned 0; 0 sec.
+Command         ap_source returned 0; 0.18 sec.
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
+Command         ap_source returned 0; 0 sec.
+Command       ap_source returned 0; 0.18 sec.
+Command     ap_source returned 0; 0.18 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
+Command       ap_source returned 0; 0.01 sec.
+Command     ap_source returned 0; 0.01 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
+Command       ap_source returned 0; 0 sec.
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
+Command     ap_source returned 0; 0.01 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
+Command             ap_source returned 0; 0 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
+Command             ap_source returned 0; 0.01 sec.
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Command           ap_source returned 0; 0.02 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source returned 0; 0.12 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
+Command           ap_source returned 0; 0.01 sec.
+Command         ap_source returned 0; 0.18 sec.
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
+Command         ap_source returned 0; 0 sec.
+Command       ap_source returned 0; 0.18 sec.
+Command     ap_source returned 0; 0.18 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
+Command       ap_source returned 0; 0 sec.
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
+Command       ap_source returned 0; 0 sec.
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
+Command             ap_source returned 0; 0.01 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
+Command             ap_source returned 0; 0.01 sec.
+Command           ap_source returned 0; 0.02 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source returned 0; 0.12 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
+Command           ap_source returned 0; 0 sec.
+Command         ap_source returned 0; 0.17 sec.
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
+Command         ap_source returned 0; 0 sec.
+Command       ap_source returned 0; 0.17 sec.
+Command     ap_source returned 0; 0.17 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
+Command       ap_source returned 0; 0.01 sec.
+Command     ap_source returned 0; 0.01 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.compgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.compgen.tcl 
+Command     ap_source returned 0; 0.13 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.constraint.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
+Command       ap_source returned 0; 0.01 sec.
+Command     ap_source returned 0; 0.01 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
+Command             ap_source returned 0; 0 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
+Command             ap_source returned 0; 0.01 sec.
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Command           ap_source returned 0; 0.02 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source returned 0; 0.13 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
+Command           ap_source returned 0; 0 sec.
+Command         ap_source returned 0; 0.18 sec.
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
+Command         ap_source returned 0; 0 sec.
+Command       ap_source returned 0; 0.18 sec.
+Command     ap_source returned 0; 0.18 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
+Command       ap_source returned 0; 0 sec.
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
+Command       ap_source returned 0; 0 sec.
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
+Command             ap_source returned 0; 0 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
+Command             ap_source returned 0; 0.01 sec.
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Command           ap_source returned 0; 0.02 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source returned 0; 0.12 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
+Command           ap_source returned 0; 0 sec.
+Command         ap_source returned 0; 0.17 sec.
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
+Command         ap_source returned 0; 0 sec.
+Command       ap_source returned 0; 0.18 sec.
+Command     ap_source returned 0; 0.18 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
+Command       ap_source returned 0; 0 sec.
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0.01 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
+Command       ap_source returned 0; 0 sec.
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
+Command             ap_source returned 0; 0.01 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
+Command             ap_source returned 0; 0.01 sec.
+Command           ap_source returned 0; 0.02 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source returned 0; 0.12 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
+Command           ap_source returned 0; 0 sec.
+Command         ap_source returned 0; 0.18 sec.
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
+Command         ap_source returned 0; 0 sec.
+Command       ap_source returned 0; 0.18 sec.
+Command     ap_source returned 0; 0.18 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
+Command       ap_source returned 0; 0 sec.
+Command     ap_source returned 0; 0.01 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.compgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.compgen.tcl 
+Command     ap_source returned 0; 0.13 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.constraint.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
+Command       ap_source returned 0; 0 sec.
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
+Command     ap_source returned 0; 0 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
+Command             ap_source returned 0; 0.01 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
+Command             ap_source returned 0; 0.01 sec.
+Command           ap_source returned 0; 0.02 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source returned 0; 0.13 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
+Command           ap_source returned 0; 0 sec.
+Command         ap_source returned 0; 0.17 sec.
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
+Command         ap_source returned 0; 0 sec.
+Command       ap_source returned 0; 0.18 sec.
+Command     ap_source returned 0; 0.18 sec.
+Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
+Command       ap_source returned 0; 0.01 sec.
+Command     ap_source returned 0; 0.01 sec.
+Execute     source /home/common/FPGA/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0 sec.
+Command   export_design returned 0; 132.54 sec.
+Command ap_source returned 0; 132.89 sec.
+Execute cleanup_all 
+Command cleanup_all returned 0; 0 sec.
