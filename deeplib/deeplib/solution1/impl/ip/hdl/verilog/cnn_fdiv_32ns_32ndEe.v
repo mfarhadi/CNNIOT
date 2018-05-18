@@ -10,7 +10,7 @@
 
 module cnn_fdiv_32ns_32ndEe
 #(parameter
-    ID         = 19,
+    ID         = 20,
     NUM_STAGE  = 16,
     din0_WIDTH = 32,
     din1_WIDTH = 32,

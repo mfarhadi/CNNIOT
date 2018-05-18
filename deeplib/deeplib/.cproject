@@ -29,6 +29,7 @@
 									<listOptionValue builtIn="false" value="/media/common/DATAPART1/vivado/Vivado/2017.4/include/ap_sysc"/>
 									<listOptionValue builtIn="false" value="/media/common/DATAPART1/vivado/Vivado/2017.4/lnx64/tools/systemc/include"/>
 									<listOptionValue builtIn="false" value="/media/common/DATAPART1/vivado/Vivado/2017.4/include"/>
+									<listOptionValue builtIn="false" value="/home/common/FPGA/CONV/CNNIOT/deeplib"/>
 									<listOptionValue builtIn="false" value="/media/common/DATAPART1/vivado/Vivado/2017.4/include/etc"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.1693983694" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
@@ -46,6 +47,7 @@
 									<listOptionValue builtIn="false" value="/media/common/DATAPART1/vivado/Vivado/2017.4/include/ap_sysc"/>
 									<listOptionValue builtIn="false" value="/media/common/DATAPART1/vivado/Vivado/2017.4/lnx64/tools/systemc/include"/>
 									<listOptionValue builtIn="false" value="/media/common/DATAPART1/vivado/Vivado/2017.4/include"/>
+									<listOptionValue builtIn="false" value="/home/common/FPGA/CONV/CNNIOT/deeplib"/>
 									<listOptionValue builtIn="false" value="/media/common/DATAPART1/vivado/Vivado/2017.4/include/etc"/>
 								</option>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1211711052" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
@@ -113,6 +115,7 @@
 									<listOptionValue builtIn="false" value="/media/common/DATAPART1/vivado/Vivado/2017.4/include/ap_sysc"/>
 									<listOptionValue builtIn="false" value="/media/common/DATAPART1/vivado/Vivado/2017.4/lnx64/tools/systemc/include"/>
 									<listOptionValue builtIn="false" value="/media/common/DATAPART1/vivado/Vivado/2017.4/include"/>
+									<listOptionValue builtIn="false" value="/home/common/FPGA/CONV/CNNIOT/deeplib"/>
 									<listOptionValue builtIn="false" value="/media/common/DATAPART1/vivado/Vivado/2017.4/include/etc"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.499929114" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
@@ -125,6 +128,7 @@
 									<listOptionValue builtIn="false" value="/media/common/DATAPART1/vivado/Vivado/2017.4/include/ap_sysc"/>
 									<listOptionValue builtIn="false" value="/media/common/DATAPART1/vivado/Vivado/2017.4/lnx64/tools/systemc/include"/>
 									<listOptionValue builtIn="false" value="/media/common/DATAPART1/vivado/Vivado/2017.4/include"/>
+									<listOptionValue builtIn="false" value="/home/common/FPGA/CONV/CNNIOT/deeplib"/>
 									<listOptionValue builtIn="false" value="/media/common/DATAPART1/vivado/Vivado/2017.4/include/etc"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1020078891" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>

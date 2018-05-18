@@ -18,5 +18,15 @@
 <option name="port" positionalBoolean="4" value="out_data"/>
 </pragma>
 </directive>
+<directive functionLabel="" functionName="cnn" label="">
+<pragma name="PIPELINE">
+<option name="II" value="1"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="cnn" label="">
+<pragma name="PIPELINE">
+<option name="II" value="1"/>
+</pragma>
+</directive>
 </sourceFile>
 </AutoPilot:ProjectResources>

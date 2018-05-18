@@ -39,7 +39,8 @@ port (
     loop_r : IN STD_LOGIC_VECTOR (0 downto 0);
     ap_return : OUT STD_LOGIC_VECTOR (31 downto 0);
     in_data_TDATA_blk_n : OUT STD_LOGIC;
-    out_data_TDATA_blk_n : OUT STD_LOGIC );
+    out_data_TDATA_blk_n : OUT STD_LOGIC;
+    ap_ce : IN STD_LOGIC );
 end;
 
 
@@ -58,9 +59,8 @@ architecture behav of Axi_Transfer is
     signal ap_block_state1 : BOOLEAN;
     signal ap_sig_ioackin_out_data_TREADY : STD_LOGIC;
     signal ap_reg_ioackin_out_data_TREADY : STD_LOGIC := '0';
-    signal ap_return_preg : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000000";
     signal ap_NS_fsm : STD_LOGIC_VECTOR (0 downto 0);
-    signal ap_condition_149 : BOOLEAN;
+    signal ap_condition_156 : BOOLEAN;
     signal ap_condition_51 : BOOLEAN;
 
 
@@ -87,10 +87,10 @@ begin
             if (ap_rst = '1') then
                 ap_reg_ioackin_out_data_TREADY <= ap_const_logic_0;
             else
-                if ((ap_const_logic_1 = ap_CS_fsm_state1)) then
+                if (((ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then
                     if ((ap_const_boolean_1 = ap_condition_51)) then 
                         ap_reg_ioackin_out_data_TREADY <= ap_const_logic_0;
-                    elsif ((ap_const_boolean_1 = ap_condition_149)) then 
+                    elsif ((ap_const_boolean_1 = ap_condition_156)) then 
                         ap_reg_ioackin_out_data_TREADY <= ap_const_logic_1;
                     end if;
                 end if; 
@@ -99,21 +99,7 @@ begin
     end process;
 
 
-    ap_return_preg_assign_proc : process(ap_clk)
-    begin
-        if (ap_clk'event and ap_clk =  '1') then
-            if (ap_rst = '1') then
-                ap_return_preg <= ap_const_lv32_0;
-            else
-                if ((not(((ap_start = ap_const_logic_0) or (ap_sig_ioackin_out_data_TREADY = ap_const_logic_0) or (in_data_TVALID = ap_const_logic_0))) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-                    ap_return_preg <= in_data_TDATA;
-                end if; 
-            end if;
-        end if;
-    end process;
-
-
-    ap_NS_fsm_assign_proc : process (ap_start, ap_CS_fsm, ap_CS_fsm_state1, in_data_TVALID, ap_sig_ioackin_out_data_TREADY)
+    ap_NS_fsm_assign_proc : process (ap_start, ap_CS_fsm, ap_CS_fsm_state1, in_data_TVALID, ap_sig_ioackin_out_data_TREADY, ap_ce)
     begin
         case ap_CS_fsm is
             when ap_ST_fsm_state1 => 
@@ -130,9 +116,9 @@ begin
     end process;
 
 
-    ap_condition_149_assign_proc : process(ap_start, in_data_TVALID, out_data_TREADY)
+    ap_condition_156_assign_proc : process(ap_start, in_data_TVALID, out_data_TREADY)
     begin
-                ap_condition_149 <= (not(((ap_start = ap_const_logic_0) or (in_data_TVALID = ap_const_logic_0))) and (out_data_TREADY = ap_const_logic_1));
+                ap_condition_156 <= (not(((ap_start = ap_const_logic_0) or (in_data_TVALID = ap_const_logic_0))) and (out_data_TREADY = ap_const_logic_1));
     end process;
 
 
@@ -142,9 +128,9 @@ begin
     end process;
 
 
-    ap_done_assign_proc : process(ap_start, ap_CS_fsm_state1, in_data_TVALID, ap_sig_ioackin_out_data_TREADY)
+    ap_done_assign_proc : process(ap_start, ap_CS_fsm_state1, in_data_TVALID, ap_sig_ioackin_out_data_TREADY, ap_ce)
     begin
-        if ((((ap_start = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_state1)) or (not(((ap_start = ap_const_logic_0) or (ap_sig_ioackin_out_data_TREADY = ap_const_logic_0) or (in_data_TVALID = ap_const_logic_0))) and (ap_const_logic_1 = ap_CS_fsm_state1)))) then 
+        if ((((ap_start = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_state1)) or (not(((ap_start = ap_const_logic_0) or (ap_sig_ioackin_out_data_TREADY = ap_const_logic_0) or (in_data_TVALID = ap_const_logic_0))) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1)))) then 
             ap_done <= ap_const_logic_1;
         else 
             ap_done <= ap_const_logic_0;
@@ -162,25 +148,16 @@ begin
     end process;
 
 
-    ap_ready_assign_proc : process(ap_start, ap_CS_fsm_state1, in_data_TVALID, ap_sig_ioackin_out_data_TREADY)
+    ap_ready_assign_proc : process(ap_start, ap_CS_fsm_state1, in_data_TVALID, ap_sig_ioackin_out_data_TREADY, ap_ce)
     begin
-        if ((not(((ap_start = ap_const_logic_0) or (ap_sig_ioackin_out_data_TREADY = ap_const_logic_0) or (in_data_TVALID = ap_const_logic_0))) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
+        if ((not(((ap_start = ap_const_logic_0) or (ap_sig_ioackin_out_data_TREADY = ap_const_logic_0) or (in_data_TVALID = ap_const_logic_0))) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
             ap_ready <= ap_const_logic_1;
         else 
             ap_ready <= ap_const_logic_0;
         end if; 
     end process;
 
-
-    ap_return_assign_proc : process(ap_start, ap_CS_fsm_state1, in_data_TDATA, in_data_TVALID, ap_sig_ioackin_out_data_TREADY, ap_return_preg)
-    begin
-        if ((not(((ap_start = ap_const_logic_0) or (ap_sig_ioackin_out_data_TREADY = ap_const_logic_0) or (in_data_TVALID = ap_const_logic_0))) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-            ap_return <= in_data_TDATA;
-        else 
-            ap_return <= ap_return_preg;
-        end if; 
-    end process;
-
+    ap_return <= in_data_TDATA;
 
     ap_sig_ioackin_out_data_TREADY_assign_proc : process(out_data_TREADY, ap_reg_ioackin_out_data_TREADY)
     begin
@@ -202,9 +179,9 @@ begin
     end process;
 
 
-    in_data_TREADY_assign_proc : process(ap_start, ap_CS_fsm_state1, in_data_TVALID, ap_sig_ioackin_out_data_TREADY)
+    in_data_TREADY_assign_proc : process(ap_start, ap_CS_fsm_state1, in_data_TVALID, ap_sig_ioackin_out_data_TREADY, ap_ce)
     begin
-        if ((not(((ap_start = ap_const_logic_0) or (ap_sig_ioackin_out_data_TREADY = ap_const_logic_0) or (in_data_TVALID = ap_const_logic_0))) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
+        if ((not(((ap_start = ap_const_logic_0) or (ap_sig_ioackin_out_data_TREADY = ap_const_logic_0) or (in_data_TVALID = ap_const_logic_0))) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
             in_data_TREADY <= ap_const_logic_1;
         else 
             in_data_TREADY <= ap_const_logic_0;
@@ -231,9 +208,9 @@ begin
     out_data_TSTRB <= in_data_TSTRB;
     out_data_TUSER <= in_data_TUSER;
 
-    out_data_TVALID_assign_proc : process(ap_start, ap_CS_fsm_state1, in_data_TVALID, ap_reg_ioackin_out_data_TREADY)
+    out_data_TVALID_assign_proc : process(ap_start, ap_CS_fsm_state1, in_data_TVALID, ap_ce, ap_reg_ioackin_out_data_TREADY)
     begin
-        if ((not(((ap_start = ap_const_logic_0) or (in_data_TVALID = ap_const_logic_0))) and (ap_reg_ioackin_out_data_TREADY = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
+        if ((not(((ap_start = ap_const_logic_0) or (in_data_TVALID = ap_const_logic_0))) and (ap_const_logic_1 = ap_ce) and (ap_reg_ioackin_out_data_TREADY = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
             out_data_TVALID <= ap_const_logic_1;
         else 
             out_data_TVALID <= ap_const_logic_0;

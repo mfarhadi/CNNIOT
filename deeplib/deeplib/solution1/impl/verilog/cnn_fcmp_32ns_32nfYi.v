@@ -10,7 +10,7 @@
 
 module cnn_fcmp_32ns_32nfYi
 #(parameter
-    ID         = 21,
+    ID         = 22,
     NUM_STAGE  = 1,
     din0_WIDTH = 32,
     din1_WIDTH = 32,

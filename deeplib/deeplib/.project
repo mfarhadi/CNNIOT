@@ -29,47 +29,42 @@
 		<link>
 			<name>source</name>
 			<type>2</type>
-			<location>/home/common/FPGA/deeplib/deeplib/.apc/.src</location>
+			<location>/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/.apc/.src</location>
 		</link>
 		<link>
 			<name>testbench</name>
 			<type>2</type>
-			<location>/home/common/FPGA/deeplib/deeplib/.apc/.tb</location>
+			<location>/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/.apc/.tb</location>
 		</link>
 		<link>
 			<name>solution1/constraints</name>
 			<type>2</type>
-			<location>/home/common/FPGA/deeplib/deeplib/solution1/.tcls</location>
+			<location>/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.tcls</location>
 		</link>
 		<link>
-			<name>source/main_backup.cpp</name>
+			<name>source/main.cpp</name>
 			<type>1</type>
-			<location>/home/common/FPGA/deeplib/deeplib/main_backup.cpp</location>
-		</link>
-		<link>
-			<name>source/mmult.h</name>
-			<type>1</type>
-			<location>/home/common/FPGA/deeplib/deeplib/mmult.h</location>
+			<location>/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/main.cpp</location>
 		</link>
 		<link>
 			<name>testbench/test.cpp</name>
 			<type>1</type>
-			<location>/home/common/FPGA/deeplib/deeplib/test.cpp</location>
+			<location>/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/test.cpp</location>
 		</link>
 		<link>
 			<name>solution1/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>/home/common/FPGA/deeplib/deeplib/solution1/solution1.directive</location>
+			<location>/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/solution1.directive</location>
 		</link>
 		<link>
 			<name>solution1/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>/home/common/FPGA/deeplib/deeplib/solution1/directives.tcl</location>
+			<location>/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/directives.tcl</location>
 		</link>
 		<link>
 			<name>solution1/constraints/script.tcl</name>
 			<type>1</type>
-			<location>/home/common/FPGA/deeplib/deeplib/solution1/script.tcl</location>
+			<location>/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/script.tcl</location>
 		</link>
 	</linkedResources>
 </projectDescription>

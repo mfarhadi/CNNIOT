@@ -10,7 +10,7 @@ use ieee.std_logic_1164.all;
 
 entity cnn_sitofp_32ns_3eOg is
     generic (
-        ID         : integer := 20;
+        ID         : integer := 21;
         NUM_STAGE  : integer := 6;
         din0_WIDTH : integer := 32;
         dout_WIDTH : integer := 32

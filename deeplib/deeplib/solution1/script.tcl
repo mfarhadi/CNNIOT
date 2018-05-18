@@ -5,8 +5,7 @@
 ############################################################
 open_project deeplib
 set_top cnn
-add_files deeplib/main_backup.cpp
-add_files deeplib/mmult.h
+add_files deeplib/main.cpp
 add_files -tb deeplib/test.cpp
 open_solution "solution1"
 set_part {xc7z020clg400-1} -tool vivado

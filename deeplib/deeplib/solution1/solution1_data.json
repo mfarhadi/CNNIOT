@@ -43,10 +43,12 @@
       "impl\/vhdl\/cnn_fdiv_32ns_32ndEe.vhd",
       "impl\/vhdl\/cnn_fmul_32ns_32ncud.vhd",
       "impl\/vhdl\/cnn_Input.vhd",
+      "impl\/vhdl\/cnn_mul_64ns_32nshbi.vhd",
       "impl\/vhdl\/cnn_Parameters.vhd",
       "impl\/vhdl\/cnn_sdiv_32ns_32sg8j.vhd",
+      "impl\/vhdl\/cnn_sdiv_32s_32s_ibs.vhd",
       "impl\/vhdl\/cnn_sitofp_32ns_3eOg.vhd",
-      "impl\/vhdl\/cnn_Weight.vhd",
+      "impl\/vhdl\/p_hls_fptosi_float_i.vhd",
       "impl\/vhdl\/cnn.vhd"
     ],
     "Verilog": [
@@ -57,10 +59,12 @@
       "impl\/verilog\/cnn_fdiv_32ns_32ndEe.v",
       "impl\/verilog\/cnn_fmul_32ns_32ncud.v",
       "impl\/verilog\/cnn_Input.v",
+      "impl\/verilog\/cnn_mul_64ns_32nshbi.v",
       "impl\/verilog\/cnn_Parameters.v",
       "impl\/verilog\/cnn_sdiv_32ns_32sg8j.v",
+      "impl\/verilog\/cnn_sdiv_32s_32s_ibs.v",
       "impl\/verilog\/cnn_sitofp_32ns_3eOg.v",
-      "impl\/verilog\/cnn_Weight.v",
+      "impl\/verilog\/p_hls_fptosi_float_i.v",
       "impl\/verilog\/cnn.v"
     ],
     "Misc": ["impl\/misc\/logo.png"],
@@ -368,10 +372,16 @@
   "ModuleInfo": {
     "Hierarchy": {
       "ModuleName": "cnn",
-      "Instances": [{
+      "Instances": [
+        {
+          "ModuleName": "p_hls_fptosi_float_i",
+          "InstanceName": "grp_p_hls_fptosi_float_i_fu_801"
+        },
+        {
           "ModuleName": "Axi_Transfer",
-          "InstanceName": "grp_Axi_Transfer_fu_500"
-        }]
+          "InstanceName": "grp_Axi_Transfer_fu_806"
+        }
+      ]
     },
     "Metrics": {
       "Axi_Transfer": {
@@ -379,9 +389,9 @@
           "LatencyBest": "0",
           "LatencyAvg": "0",
           "LatencyWorst": "0",
-          "PipelineII": "0",
-          "PipelineDepth": "",
-          "PipelineType": "none"
+          "PipelineII": "1",
+          "PipelineDepth": "1",
+          "PipelineType": "function"
         },
         "Timing": {
           "Target": "10.00",
@@ -389,8 +399,29 @@
           "Estimate": "1.37"
         },
         "Area": {
-          "FF": "34",
-          "LUT": "84",
+          "FF": "2",
+          "LUT": "75",
+          "BRAM_18K": "0",
+          "DSP48E": "0"
+        }
+      },
+      "p_hls_fptosi_float_i": {
+        "Latency": {
+          "LatencyBest": "1",
+          "LatencyAvg": "1",
+          "LatencyWorst": "1",
+          "PipelineII": "1",
+          "PipelineDepth": "2",
+          "PipelineType": "function"
+        },
+        "Timing": {
+          "Target": "10.00",
+          "Uncertainty": "1.25",
+          "Estimate": "7.71"
+        },
+        "Area": {
+          "FF": "33",
+          "LUT": "459",
           "BRAM_18K": "0",
           "DSP48E": "0"
         }
@@ -407,7 +438,7 @@
         "Timing": {
           "Target": "10.00",
           "Uncertainty": "1.25",
-          "Estimate": "9.78"
+          "Estimate": "10.02"
         },
         "Loops": [{
             "Name": "Loop 1",
@@ -467,39 +498,88 @@
                             "TripCount": "",
                             "Latency": "",
                             "PipelineII": "",
-                            "PipelineDepth": "",
-                            "Loops": [{
-                                "Name": "Loop 1.5.1.1.1.1",
-                                "TripCount": "",
-                                "Latency": "",
-                                "PipelineII": "",
-                                "PipelineDepth": "",
-                                "Loops": [{
-                                    "Name": "Loop 1.5.1.1.1.1.1",
-                                    "TripCount": "",
-                                    "Latency": "",
-                                    "PipelineII": "",
-                                    "PipelineDepth": "11"
-                                  }]
-                              }]
+                            "PipelineDepth": "11"
                           }]
                       }]
                   }]
+              },
+              {
+                "Name": "Loop 1.6",
+                "TripCount": "",
+                "Latency": "",
+                "PipelineII": "",
+                "PipelineDepth": "8"
+              },
+              {
+                "Name": "Loop 1.7",
+                "TripCount": "",
+                "Latency": "",
+                "PipelineII": "",
+                "PipelineDepth": "",
+                "Loops": [{
+                    "Name": "Loop 1.7.1",
+                    "TripCount": "",
+                    "Latency": "",
+                    "PipelineII": "",
+                    "PipelineDepth": "",
+                    "Loops": [{
+                        "Name": "Loop 1.7.1.1",
+                        "TripCount": "",
+                        "Latency": "",
+                        "PipelineII": "",
+                        "PipelineDepth": "9"
+                      }]
+                  }]
+              },
+              {
+                "Name": "Loop 1.8",
+                "TripCount": "",
+                "Latency": "",
+                "PipelineII": "",
+                "PipelineDepth": "24"
+              },
+              {
+                "Name": "Loop 1.9",
+                "TripCount": "",
+                "Latency": "",
+                "PipelineII": "",
+                "PipelineDepth": "24"
+              },
+              {
+                "Name": "Loop 1.10",
+                "TripCount": "",
+                "Latency": "",
+                "PipelineII": "",
+                "PipelineDepth": "",
+                "Loops": [{
+                    "Name": "Loop 1.10.1",
+                    "TripCount": "",
+                    "Latency": "",
+                    "PipelineII": "",
+                    "PipelineDepth": "32"
+                  }]
+              },
+              {
+                "Name": "Loop 1.11",
+                "TripCount": "",
+                "Latency": "",
+                "PipelineII": "",
+                "PipelineDepth": "4"
               }
             ]
           }],
         "Area": {
-          "BRAM_18K": "34",
-          "DSP48E": "38",
-          "FF": "4754",
-          "LUT": "7252"
+          "BRAM_18K": "258",
+          "DSP48E": "121",
+          "FF": "9843",
+          "LUT": "12383"
         }
       }
     }
   },
   "GenData": {
     "DataVersion": "0.1",
-    "Time": "2018-05-16 07:38:33 MST",
+    "Time": "2018-05-18 11:15:19 MST",
     "ToolName": "vivado_hls",
     "ToolVersion": "2017.4"
   }

@@ -9,8 +9,8 @@
 module cnn_Input_ram (addr0, ce0, d0, we0, q0,  clk);
 
 parameter DWIDTH = 32;
-parameter AWIDTH = 13;
-parameter MEM_SIZE = 6000;
+parameter AWIDTH = 16;
+parameter MEM_SIZE = 60000;
 
 input[AWIDTH-1:0] addr0;
 input ce0;
@@ -53,8 +53,8 @@ module cnn_Input(
     q0);
 
 parameter DataWidth = 32'd32;
-parameter AddressRange = 32'd6000;
-parameter AddressWidth = 32'd13;
+parameter AddressRange = 32'd60000;
+parameter AddressWidth = 32'd16;
 input reset;
 input clk;
 input[AddressWidth - 1:0] address0;

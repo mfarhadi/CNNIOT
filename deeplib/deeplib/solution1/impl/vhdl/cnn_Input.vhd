@@ -14,8 +14,8 @@ entity cnn_Input_ram is
     generic(
             mem_type    : string := "block"; 
             dwidth     : integer := 32; 
-            awidth     : integer := 13; 
-            mem_size    : integer := 6000
+            awidth     : integer := 16; 
+            mem_size    : integer := 60000
     ); 
     port (
           addr0     : in std_logic_vector(awidth-1 downto 0); 
@@ -76,8 +76,8 @@ use IEEE.std_logic_1164.all;
 entity cnn_Input is
     generic (
         DataWidth : INTEGER := 32;
-        AddressRange : INTEGER := 6000;
-        AddressWidth : INTEGER := 13);
+        AddressRange : INTEGER := 60000;
+        AddressWidth : INTEGER := 16);
     port (
         reset : IN STD_LOGIC;
         clk : IN STD_LOGIC;

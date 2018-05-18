@@ -36,7 +36,8 @@ module Axi_Transfer (
         loop_r,
         ap_return,
         in_data_TDATA_blk_n,
-        out_data_TDATA_blk_n
+        out_data_TDATA_blk_n,
+        ap_ce
 );
 
 parameter    ap_ST_fsm_state1 = 1'd1;
@@ -70,13 +71,13 @@ input  [0:0] loop_r;
 output  [31:0] ap_return;
 output   in_data_TDATA_blk_n;
 output   out_data_TDATA_blk_n;
+input   ap_ce;
 
 reg ap_done;
 reg ap_idle;
 reg ap_ready;
 reg in_data_TREADY;
 reg out_data_TVALID;
-reg[31:0] ap_return;
 reg in_data_TDATA_blk_n;
 reg out_data_TDATA_blk_n;
 
@@ -85,16 +86,14 @@ wire    ap_CS_fsm_state1;
 reg    ap_block_state1;
 reg    ap_sig_ioackin_out_data_TREADY;
 reg    ap_reg_ioackin_out_data_TREADY;
-reg   [31:0] ap_return_preg;
 reg   [0:0] ap_NS_fsm;
-reg    ap_condition_149;
+reg    ap_condition_156;
 reg    ap_condition_51;
 
 // power-on initialization
 initial begin
 #0 ap_CS_fsm = 1'd1;
 #0 ap_reg_ioackin_out_data_TREADY = 1'b0;
-#0 ap_return_preg = 32'd0;
 end
 
 always @ (posedge ap_clk) begin
@@ -109,28 +108,18 @@ always @ (posedge ap_clk) begin
     if (ap_rst == 1'b1) begin
         ap_reg_ioackin_out_data_TREADY <= 1'b0;
     end else begin
-        if ((1'b1 == ap_CS_fsm_state1)) begin
+        if (((1'b1 == ap_ce) & (1'b1 == ap_CS_fsm_state1))) begin
             if ((1'b1 == ap_condition_51)) begin
                 ap_reg_ioackin_out_data_TREADY <= 1'b0;
-            end else if ((1'b1 == ap_condition_149)) begin
+            end else if ((1'b1 == ap_condition_156)) begin
                 ap_reg_ioackin_out_data_TREADY <= 1'b1;
             end
         end
     end
 end
 
-always @ (posedge ap_clk) begin
-    if (ap_rst == 1'b1) begin
-        ap_return_preg <= 32'd0;
-    end else begin
-        if ((~((ap_start == 1'b0) | (ap_sig_ioackin_out_data_TREADY == 1'b0) | (in_data_TVALID == 1'b0)) & (1'b1 == ap_CS_fsm_state1))) begin
-            ap_return_preg <= in_data_TDATA;
-        end
-    end
-end
-
 always @ (*) begin
-    if ((((ap_start == 1'b0) & (1'b1 == ap_CS_fsm_state1)) | (~((ap_start == 1'b0) | (ap_sig_ioackin_out_data_TREADY == 1'b0) | (in_data_TVALID == 1'b0)) & (1'b1 == ap_CS_fsm_state1)))) begin
+    if ((((ap_start == 1'b0) & (1'b1 == ap_CS_fsm_state1)) | (~((ap_start == 1'b0) | (ap_sig_ioackin_out_data_TREADY == 1'b0) | (in_data_TVALID == 1'b0)) & (1'b1 == ap_ce) & (1'b1 == ap_CS_fsm_state1)))) begin
         ap_done = 1'b1;
     end else begin
         ap_done = 1'b0;
@@ -146,18 +135,10 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if ((~((ap_start == 1'b0) | (ap_sig_ioackin_out_data_TREADY == 1'b0) | (in_data_TVALID == 1'b0)) & (1'b1 == ap_CS_fsm_state1))) begin
+    if ((~((ap_start == 1'b0) | (ap_sig_ioackin_out_data_TREADY == 1'b0) | (in_data_TVALID == 1'b0)) & (1'b1 == ap_ce) & (1'b1 == ap_CS_fsm_state1))) begin
         ap_ready = 1'b1;
     end else begin
         ap_ready = 1'b0;
-    end
-end
-
-always @ (*) begin
-    if ((~((ap_start == 1'b0) | (ap_sig_ioackin_out_data_TREADY == 1'b0) | (in_data_TVALID == 1'b0)) & (1'b1 == ap_CS_fsm_state1))) begin
-        ap_return = in_data_TDATA;
-    end else begin
-        ap_return = ap_return_preg;
     end
 end
 
@@ -178,7 +159,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if ((~((ap_start == 1'b0) | (ap_sig_ioackin_out_data_TREADY == 1'b0) | (in_data_TVALID == 1'b0)) & (1'b1 == ap_CS_fsm_state1))) begin
+    if ((~((ap_start == 1'b0) | (ap_sig_ioackin_out_data_TREADY == 1'b0) | (in_data_TVALID == 1'b0)) & (1'b1 == ap_ce) & (1'b1 == ap_CS_fsm_state1))) begin
         in_data_TREADY = 1'b1;
     end else begin
         in_data_TREADY = 1'b0;
@@ -194,7 +175,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if ((~((ap_start == 1'b0) | (in_data_TVALID == 1'b0)) & (ap_reg_ioackin_out_data_TREADY == 1'b0) & (1'b1 == ap_CS_fsm_state1))) begin
+    if ((~((ap_start == 1'b0) | (in_data_TVALID == 1'b0)) & (1'b1 == ap_ce) & (ap_reg_ioackin_out_data_TREADY == 1'b0) & (1'b1 == ap_CS_fsm_state1))) begin
         out_data_TVALID = 1'b1;
     end else begin
         out_data_TVALID = 1'b0;
@@ -219,12 +200,14 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    ap_condition_149 = (~((ap_start == 1'b0) | (in_data_TVALID == 1'b0)) & (out_data_TREADY == 1'b1));
+    ap_condition_156 = (~((ap_start == 1'b0) | (in_data_TVALID == 1'b0)) & (out_data_TREADY == 1'b1));
 end
 
 always @ (*) begin
     ap_condition_51 = ~((ap_start == 1'b0) | (ap_sig_ioackin_out_data_TREADY == 1'b0) | (in_data_TVALID == 1'b0));
 end
+
+assign ap_return = in_data_TDATA;
 
 assign out_data_TDATA = ((loop_r[0:0] === 1'b1) ? in_data_TDATA : value_r);
 

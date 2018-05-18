@@ -10,7 +10,7 @@
 
 module cnn_fadd_32ns_32nbkb
 #(parameter
-    ID         = 17,
+    ID         = 18,
     NUM_STAGE  = 5,
     din0_WIDTH = 32,
     din1_WIDTH = 32,

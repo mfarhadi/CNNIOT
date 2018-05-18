@@ -10,7 +10,7 @@
 
 module cnn_sitofp_32ns_3eOg
 #(parameter
-    ID         = 20,
+    ID         = 21,
     NUM_STAGE  = 6,
     din0_WIDTH = 32,
     dout_WIDTH = 32
