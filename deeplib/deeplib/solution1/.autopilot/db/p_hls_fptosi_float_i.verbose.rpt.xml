@@ -1,0 +1,115 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'p_hls_fptosi_float_i'" level="0">
+<item name = "Date">Fri May 18 12:31:16 2018
+</item>
+<item name = "Version">2017.4 (Build 2086221 on Fri Dec 15 21:13:33 MST 2017)</item>
+<item name = "Project">deeplib</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00, 7.71, 1.25</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">1, 1, 1, 1, function</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="DSP">-, -, -, -</column>
+<column name="Expression">-, -, 0, 459</column>
+<column name="FIFO">-, -, -, -</column>
+<column name="Instance">-, -, -, -</column>
+<column name="Memory">-, -, -, -</column>
+<column name="Multiplexer">-, -, -, -</column>
+<column name="Register">-, -, 33, -</column>
+<specialColumn name="Available">280, 220, 106400, 53200</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, ~0, ~0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
+</table>
+</item>
+<item name = "DSP48"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="9">Memory, Module, BRAM_18K, FF, LUT, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="7">Name, BRAM_18K, FF, LUT, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="sh_assign_fu_88_p2">+, 0, 0, 16, 8, 9</column>
+<column name="p_Val2_6_i_i_fu_174_p2">-, 0, 0, 39, 1, 32</column>
+<column name="tmp_5_i_i_fu_102_p2">-, 0, 0, 15, 7, 8</column>
+<column name="tmp_8_i_i_fu_132_p2">lshr, 0, 0, 73, 25, 25</column>
+<column name="ap_return">select, 0, 0, 32, 1, 32</column>
+<column name="p_Val2_2_fu_166_p3">select, 0, 0, 32, 1, 32</column>
+<column name="sh_assign_1_fu_112_p3">select, 0, 0, 9, 1, 9</column>
+<column name="tmp_i_i_fu_138_p2">shl, 0, 0, 243, 79, 79</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="p_Result_s_reg_185">1, 0, 1, 0</column>
+<column name="p_Val2_2_reg_190">32, 0, 32, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, __hls_fptosi_float_i, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, __hls_fptosi_float_i, return value</column>
+<column name="ap_return">out, 32, ap_ctrl_hs, __hls_fptosi_float_i, return value</column>
+<column name="ap_ce">in, 1, ap_ctrl_hs, __hls_fptosi_float_i, return value</column>
+<column name="x">in, 32, ap_none, x, scalar</column>
+</table>
+</item>
+</section>
+</profile>

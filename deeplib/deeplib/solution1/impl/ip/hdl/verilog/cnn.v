@@ -7,7 +7,7 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="cnn,hls_ip_2017_4,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg400-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=10.015500,HLS_SYN_LAT=-1,HLS_SYN_TPT=none,HLS_SYN_MEM=258,HLS_SYN_DSP=121,HLS_SYN_FF=9843,HLS_SYN_LUT=12383}" *)
+(* CORE_GENERATION_INFO="cnn,hls_ip_2017_4,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg400-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=10.015500,HLS_SYN_LAT=-1,HLS_SYN_TPT=none,HLS_SYN_MEM=132,HLS_SYN_DSP=121,HLS_SYN_FF=9843,HLS_SYN_LUT=12383}" *)
 
 module cnn (
         ap_clk,
@@ -1011,15 +1011,15 @@ wire   [30:0] idx_10_fu_2228_p2;
 reg   [30:0] idx_10_reg_3186;
 wire    ap_CS_fsm_state361;
 wire   [0:0] tmp_100_fu_2223_p2;
-reg   [15:0] Input_address0;
+reg   [14:0] Input_address0;
 reg    Input_ce0;
 reg    Input_we0;
 reg   [31:0] Input_d0;
-reg   [15:0] Weight_address0;
+reg   [14:0] Weight_address0;
 reg    Weight_ce0;
 reg    Weight_we0;
 reg   [31:0] Weight_d0;
-reg   [9:0] Bias_address0;
+reg   [10:0] Bias_address0;
 reg    Bias_ce0;
 reg    Bias_we0;
 reg   [4:0] Parameters_address0;
@@ -1374,8 +1374,8 @@ end
 
 cnn_Input #(
     .DataWidth( 32 ),
-    .AddressRange( 60000 ),
-    .AddressWidth( 16 ))
+    .AddressRange( 30000 ),
+    .AddressWidth( 15 ))
 Input_U(
     .clk(ap_clk),
     .reset(ap_rst_n_inv),
@@ -1388,8 +1388,8 @@ Input_U(
 
 cnn_Input #(
     .DataWidth( 32 ),
-    .AddressRange( 60000 ),
-    .AddressWidth( 16 ))
+    .AddressRange( 30000 ),
+    .AddressWidth( 15 ))
 Weight_U(
     .clk(ap_clk),
     .reset(ap_rst_n_inv),
@@ -1402,8 +1402,8 @@ Weight_U(
 
 cnn_Bias #(
     .DataWidth( 32 ),
-    .AddressRange( 1000 ),
-    .AddressWidth( 10 ))
+    .AddressRange( 2000 ),
+    .AddressWidth( 11 ))
 Bias_U(
     .clk(ap_clk),
     .reset(ap_rst_n_inv),

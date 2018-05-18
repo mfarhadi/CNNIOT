@@ -14,8 +14,8 @@ entity cnn_Bias_ram is
     generic(
             mem_type    : string := "block"; 
             dwidth     : integer := 32; 
-            awidth     : integer := 10; 
-            mem_size    : integer := 1000
+            awidth     : integer := 11; 
+            mem_size    : integer := 2000
     ); 
     port (
           addr0     : in std_logic_vector(awidth-1 downto 0); 
@@ -76,8 +76,8 @@ use IEEE.std_logic_1164.all;
 entity cnn_Bias is
     generic (
         DataWidth : INTEGER := 32;
-        AddressRange : INTEGER := 1000;
-        AddressWidth : INTEGER := 10);
+        AddressRange : INTEGER := 2000;
+        AddressWidth : INTEGER := 11);
     port (
         reset : IN STD_LOGIC;
         clk : IN STD_LOGIC;

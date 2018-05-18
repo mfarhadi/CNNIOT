@@ -285,7 +285,7 @@ resolve_type immediate dependency {} format string minimum {} maximum {}} value 
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>fa0be734</spirit:value>
+            <spirit:value>625912ef</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -304,7 +304,7 @@ resolve_type immediate dependency {} format string minimum {} maximum {}} value 
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>423f8f55</spirit:value>
+            <spirit:value>f3637e98</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -323,7 +323,7 @@ resolve_type immediate dependency {} format string minimum {} maximum {}} value 
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>ebc26211</spirit:value>
+            <spirit:value>f3ae80fc</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -342,7 +342,7 @@ resolve_type immediate dependency {} format string minimum {} maximum {}} value 
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>8e09b5cd</spirit:value>
+            <spirit:value>1c175923</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1033,7 +1033,7 @@ resolve_type immediate dependency {} format string minimum {} maximum {}} value 
       <spirit:file>
         <spirit:name>hdl/vhdl/cnn_Bias.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_bdcdfd78</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_862e92a8</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -1230,13 +1230,13 @@ resolve_type immediate dependency {} format string minimum {} maximum {}} value 
       </xilinx:taxonomies>
       <xilinx:displayName>Cnn</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>1805181115</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2018-05-18T18:16:15Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>1805181231</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2018-05-18T19:32:15Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2017.4</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="d387c662"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="0ac6dd49"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="9f60436b"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="37192638"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="81270426"/>
     </xilinx:packagingInfo>

@@ -1,0 +1,143 @@
+<InterfaceSummary>
+<RtlPorts>
+<name>in_data_data_V</name>
+<CType>
+<TypeName>ap_uint 32</TypeName>
+<TypeWidth>32</TypeWidth>
+<PhysicalWidth>32</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>in_data_keep_V</name>
+<CType>
+<TypeName>ap_uint 4</TypeName>
+<TypeWidth>4</TypeWidth>
+<PhysicalWidth>4</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>in_data_strb_V</name>
+<CType>
+<TypeName>ap_uint 4</TypeName>
+<TypeWidth>4</TypeWidth>
+<PhysicalWidth>4</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>in_data_user_V</name>
+<CType>
+<TypeName>ap_uint 1</TypeName>
+<TypeWidth>1</TypeWidth>
+<PhysicalWidth>1</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>in_data_last_V</name>
+<CType>
+<TypeName>ap_uint 1</TypeName>
+<TypeWidth>1</TypeWidth>
+<PhysicalWidth>1</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>in_data_id_V</name>
+<CType>
+<TypeName>ap_uint 1</TypeName>
+<TypeWidth>1</TypeWidth>
+<PhysicalWidth>1</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>in_data_dest_V</name>
+<CType>
+<TypeName>ap_uint 1</TypeName>
+<TypeWidth>1</TypeWidth>
+<PhysicalWidth>1</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>out_data_data_V</name>
+<CType>
+<TypeName>ap_uint 32</TypeName>
+<TypeWidth>32</TypeWidth>
+<PhysicalWidth>32</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>out_data_keep_V</name>
+<CType>
+<TypeName>ap_uint 4</TypeName>
+<TypeWidth>4</TypeWidth>
+<PhysicalWidth>4</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>out_data_strb_V</name>
+<CType>
+<TypeName>ap_uint 4</TypeName>
+<TypeWidth>4</TypeWidth>
+<PhysicalWidth>4</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>out_data_user_V</name>
+<CType>
+<TypeName>ap_uint 1</TypeName>
+<TypeWidth>1</TypeWidth>
+<PhysicalWidth>1</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>out_data_last_V</name>
+<CType>
+<TypeName>ap_uint 1</TypeName>
+<TypeWidth>1</TypeWidth>
+<PhysicalWidth>1</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>out_data_id_V</name>
+<CType>
+<TypeName>ap_uint 1</TypeName>
+<TypeWidth>1</TypeWidth>
+<PhysicalWidth>1</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>out_data_dest_V</name>
+<CType>
+<TypeName>ap_uint 1</TypeName>
+<TypeWidth>1</TypeWidth>
+<PhysicalWidth>1</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+</InterfaceSummary>
+

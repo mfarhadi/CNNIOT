@@ -34,7 +34,7 @@
     "Taxonomy": "\/VIVADO_HLS_IP"
   },
   "Files": {
-    "CSource": ["..\/main_backup.cpp"],
+    "CSource": ["..\/main.cpp"],
     "Vhdl": [
       "impl\/vhdl\/Axi_Transfer.vhd",
       "impl\/vhdl\/cnn_Bias.vhd",
@@ -569,7 +569,7 @@
             ]
           }],
         "Area": {
-          "BRAM_18K": "258",
+          "BRAM_18K": "132",
           "DSP48E": "121",
           "FF": "9843",
           "LUT": "12383"
@@ -579,7 +579,7 @@
   },
   "GenData": {
     "DataVersion": "0.1",
-    "Time": "2018-05-18 11:15:19 MST",
+    "Time": "2018-05-18 12:31:21 MST",
     "ToolName": "vivado_hls",
     "ToolVersion": "2017.4"
   }

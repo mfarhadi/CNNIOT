@@ -37,7 +37,7 @@ end;
 architecture behav of cnn is 
     attribute CORE_GENERATION_INFO : STRING;
     attribute CORE_GENERATION_INFO of behav : architecture is
-    "cnn,hls_ip_2017_4,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg400-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=10.015500,HLS_SYN_LAT=-1,HLS_SYN_TPT=none,HLS_SYN_MEM=258,HLS_SYN_DSP=121,HLS_SYN_FF=9843,HLS_SYN_LUT=12383}";
+    "cnn,hls_ip_2017_4,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg400-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=10.015500,HLS_SYN_LAT=-1,HLS_SYN_TPT=none,HLS_SYN_MEM=132,HLS_SYN_DSP=121,HLS_SYN_FF=9843,HLS_SYN_LUT=12383}";
     constant ap_const_logic_1 : STD_LOGIC := '1';
     constant ap_const_logic_0 : STD_LOGIC := '0';
     constant ap_ST_fsm_state1 : STD_LOGIC_VECTOR (363 downto 0) := "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001";
@@ -1325,15 +1325,15 @@ architecture behav of cnn is
     signal ap_CS_fsm_state361 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state361 : signal is "none";
     signal tmp_100_fu_2223_p2 : STD_LOGIC_VECTOR (0 downto 0);
-    signal Input_address0 : STD_LOGIC_VECTOR (15 downto 0);
+    signal Input_address0 : STD_LOGIC_VECTOR (14 downto 0);
     signal Input_ce0 : STD_LOGIC;
     signal Input_we0 : STD_LOGIC;
     signal Input_d0 : STD_LOGIC_VECTOR (31 downto 0);
-    signal Weight_address0 : STD_LOGIC_VECTOR (15 downto 0);
+    signal Weight_address0 : STD_LOGIC_VECTOR (14 downto 0);
     signal Weight_ce0 : STD_LOGIC;
     signal Weight_we0 : STD_LOGIC;
     signal Weight_d0 : STD_LOGIC_VECTOR (31 downto 0);
-    signal Bias_address0 : STD_LOGIC_VECTOR (9 downto 0);
+    signal Bias_address0 : STD_LOGIC_VECTOR (10 downto 0);
     signal Bias_ce0 : STD_LOGIC;
     signal Bias_we0 : STD_LOGIC;
     signal Parameters_address0 : STD_LOGIC_VECTOR (4 downto 0);
@@ -1892,7 +1892,7 @@ architecture behav of cnn is
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
-        address0 : IN STD_LOGIC_VECTOR (15 downto 0);
+        address0 : IN STD_LOGIC_VECTOR (14 downto 0);
         ce0 : IN STD_LOGIC;
         we0 : IN STD_LOGIC;
         d0 : IN STD_LOGIC_VECTOR (31 downto 0);
@@ -1908,7 +1908,7 @@ architecture behav of cnn is
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
-        address0 : IN STD_LOGIC_VECTOR (9 downto 0);
+        address0 : IN STD_LOGIC_VECTOR (10 downto 0);
         ce0 : IN STD_LOGIC;
         we0 : IN STD_LOGIC;
         d0 : IN STD_LOGIC_VECTOR (31 downto 0);
@@ -1940,8 +1940,8 @@ begin
     Input_U : component cnn_Input
     generic map (
         DataWidth => 32,
-        AddressRange => 60000,
-        AddressWidth => 16)
+        AddressRange => 30000,
+        AddressWidth => 15)
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
@@ -1954,8 +1954,8 @@ begin
     Weight_U : component cnn_Input
     generic map (
         DataWidth => 32,
-        AddressRange => 60000,
-        AddressWidth => 16)
+        AddressRange => 30000,
+        AddressWidth => 15)
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
@@ -1968,8 +1968,8 @@ begin
     Bias_U : component cnn_Bias
     generic map (
         DataWidth => 32,
-        AddressRange => 1000,
-        AddressWidth => 10)
+        AddressRange => 2000,
+        AddressWidth => 11)
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
@@ -5225,15 +5225,15 @@ begin
     Bias_address0_assign_proc : process(ap_CS_fsm_state135, ap_CS_fsm_state318, tmp_112_fu_2148_p1, ap_CS_fsm_state61, ap_CS_fsm_state315, tmp_14_fu_1045_p1, Bias_load_mid2_fu_1230_p1, tmp_95_fu_2112_p1)
     begin
         if ((ap_const_logic_1 = ap_CS_fsm_state318)) then 
-            Bias_address0 <= tmp_112_fu_2148_p1(10 - 1 downto 0);
+            Bias_address0 <= tmp_112_fu_2148_p1(11 - 1 downto 0);
         elsif ((ap_const_logic_1 = ap_CS_fsm_state315)) then 
-            Bias_address0 <= tmp_95_fu_2112_p1(10 - 1 downto 0);
+            Bias_address0 <= tmp_95_fu_2112_p1(11 - 1 downto 0);
         elsif ((ap_const_logic_1 = ap_CS_fsm_state135)) then 
-            Bias_address0 <= Bias_load_mid2_fu_1230_p1(10 - 1 downto 0);
+            Bias_address0 <= Bias_load_mid2_fu_1230_p1(11 - 1 downto 0);
         elsif ((ap_const_logic_1 = ap_CS_fsm_state61)) then 
-            Bias_address0 <= tmp_14_fu_1045_p1(10 - 1 downto 0);
+            Bias_address0 <= tmp_14_fu_1045_p1(11 - 1 downto 0);
         else 
-            Bias_address0 <= "XXXXXXXXXX";
+            Bias_address0 <= "XXXXXXXXXXX";
         end if; 
     end process;
 
@@ -5277,21 +5277,21 @@ begin
     Input_address0_assign_proc : process(ap_CS_fsm_state141, ap_CS_fsm_state230, ap_CS_fsm_state234, ap_CS_fsm_state339, ap_CS_fsm_state37, ap_CS_fsm_state176, ap_CS_fsm_state290, tmp_6_fu_1017_p1, tmp_55_fu_1411_p1, tmp_43_fu_1510_p1, tmp_71_fu_1764_p1, tmp_87_fu_1829_p1, tmp_83_fu_2092_p1, tmp_103_fu_2153_p1)
     begin
         if ((ap_const_logic_1 = ap_CS_fsm_state339)) then 
-            Input_address0 <= tmp_103_fu_2153_p1(16 - 1 downto 0);
+            Input_address0 <= tmp_103_fu_2153_p1(15 - 1 downto 0);
         elsif ((ap_const_logic_1 = ap_CS_fsm_state290)) then 
-            Input_address0 <= tmp_83_fu_2092_p1(16 - 1 downto 0);
+            Input_address0 <= tmp_83_fu_2092_p1(15 - 1 downto 0);
         elsif ((ap_const_logic_1 = ap_CS_fsm_state234)) then 
-            Input_address0 <= tmp_87_fu_1829_p1(16 - 1 downto 0);
+            Input_address0 <= tmp_87_fu_1829_p1(15 - 1 downto 0);
         elsif ((ap_const_logic_1 = ap_CS_fsm_state230)) then 
-            Input_address0 <= tmp_71_fu_1764_p1(16 - 1 downto 0);
+            Input_address0 <= tmp_71_fu_1764_p1(15 - 1 downto 0);
         elsif ((ap_const_logic_1 = ap_CS_fsm_state176)) then 
-            Input_address0 <= tmp_43_fu_1510_p1(16 - 1 downto 0);
+            Input_address0 <= tmp_43_fu_1510_p1(15 - 1 downto 0);
         elsif ((ap_const_logic_1 = ap_CS_fsm_state141)) then 
-            Input_address0 <= tmp_55_fu_1411_p1(16 - 1 downto 0);
+            Input_address0 <= tmp_55_fu_1411_p1(15 - 1 downto 0);
         elsif ((ap_const_logic_1 = ap_CS_fsm_state37)) then 
-            Input_address0 <= tmp_6_fu_1017_p1(16 - 1 downto 0);
+            Input_address0 <= tmp_6_fu_1017_p1(15 - 1 downto 0);
         else 
-            Input_address0 <= "XXXXXXXXXXXXXXXX";
+            Input_address0 <= "XXXXXXXXXXXXXXX";
         end if; 
     end process;
 
@@ -5467,15 +5467,15 @@ begin
     Weight_address0_assign_proc : process(ap_CS_fsm_state141, tmp_112_reg_3137, ap_CS_fsm_state361, ap_CS_fsm_state86, ap_CS_fsm_state360, tmp_19_fu_1100_p1, tmp_57_fu_1421_p1, tmp_105_fu_2234_p1)
     begin
         if ((ap_const_logic_1 = ap_CS_fsm_state361)) then 
-            Weight_address0 <= tmp_105_fu_2234_p1(16 - 1 downto 0);
+            Weight_address0 <= tmp_105_fu_2234_p1(15 - 1 downto 0);
         elsif ((ap_const_logic_1 = ap_CS_fsm_state360)) then 
-            Weight_address0 <= tmp_112_reg_3137(16 - 1 downto 0);
+            Weight_address0 <= tmp_112_reg_3137(15 - 1 downto 0);
         elsif ((ap_const_logic_1 = ap_CS_fsm_state141)) then 
-            Weight_address0 <= tmp_57_fu_1421_p1(16 - 1 downto 0);
+            Weight_address0 <= tmp_57_fu_1421_p1(15 - 1 downto 0);
         elsif ((ap_const_logic_1 = ap_CS_fsm_state86)) then 
-            Weight_address0 <= tmp_19_fu_1100_p1(16 - 1 downto 0);
+            Weight_address0 <= tmp_19_fu_1100_p1(15 - 1 downto 0);
         else 
-            Weight_address0 <= "XXXXXXXXXXXXXXXX";
+            Weight_address0 <= "XXXXXXXXXXXXXXX";
         end if; 
     end process;
 

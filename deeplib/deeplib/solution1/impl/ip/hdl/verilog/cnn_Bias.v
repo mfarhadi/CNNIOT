@@ -9,8 +9,8 @@
 module cnn_Bias_ram (addr0, ce0, d0, we0, q0,  clk);
 
 parameter DWIDTH = 32;
-parameter AWIDTH = 10;
-parameter MEM_SIZE = 1000;
+parameter AWIDTH = 11;
+parameter MEM_SIZE = 2000;
 
 input[AWIDTH-1:0] addr0;
 input ce0;
@@ -53,8 +53,8 @@ module cnn_Bias(
     q0);
 
 parameter DataWidth = 32'd32;
-parameter AddressRange = 32'd1000;
-parameter AddressWidth = 32'd10;
+parameter AddressRange = 32'd2000;
+parameter AddressWidth = 32'd11;
 input reset;
 input clk;
 input[AddressWidth - 1:0] address0;

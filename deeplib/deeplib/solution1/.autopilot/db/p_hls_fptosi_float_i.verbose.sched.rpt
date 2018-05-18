@@ -1,0 +1,147 @@
+
+
+================================================================
+== Vivado HLS Report for 'p_hls_fptosi_float_i'
+================================================================
+* Date:           Fri May 18 12:31:12 2018
+
+* Version:        2017.4 (Build 2086221 on Fri Dec 15 21:13:33 MST 2017)
+* Project:        deeplib
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      7.71|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+----------+
+    |  Latency  |  Interval | Pipeline |
+    | min | max | min | max |   Type   |
+    +-----+-----+-----+-----+----------+
+    |    1|    1|    1|    1| function |
+    +-----+-----+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 1
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 2
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 2
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 2, States = { 1 2 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+
+* FSM state operations: 
+
+ <State 1> : 7.71ns
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%x_read = call float @_ssdm_op_Read.ap_auto.float(float %x) nounwind"
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%p_Val2_s = bitcast float %x_read to i32" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:311->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:320->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:281->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%p_Result_s = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %p_Val2_s, i32 31)" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:317->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:320->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:281->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%loc_V = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %p_Val2_s, i32 23, i32 30) nounwind" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:318->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:320->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:281->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%loc_V_1 = trunc i32 %p_Val2_s to i23" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:319->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:320->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:281->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%tmp_3_i_i = call i25 @_ssdm_op_BitConcatenate.i25.i1.i23.i1(i1 true, i23 %loc_V_1, i1 false)" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:283->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]
+ST_1 : Operation 9 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_2)   --->   "%tmp_3_i_i_cast2 = zext i25 %tmp_3_i_i to i79" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:283->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%tmp_i_i_i_cast1 = zext i8 %loc_V to i9" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:340->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]
+ST_1 : Operation 11 [1/1] (1.91ns)   --->   "%sh_assign = add i9 -127, %tmp_i_i_i_cast1" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:340->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%isNeg = call i1 @_ssdm_op_BitSelect.i1.i9.i32(i9 %sh_assign, i32 8)" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]
+ST_1 : Operation 13 [1/1] (1.91ns)   --->   "%tmp_5_i_i = sub i8 127, %loc_V" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%tmp_5_i_i_cast = sext i8 %tmp_5_i_i to i9" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]
+ST_1 : Operation 15 [1/1] (1.37ns)   --->   "%sh_assign_1 = select i1 %isNeg, i9 %tmp_5_i_i_cast, i9 %sh_assign" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.37> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 16 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_2)   --->   "%sh_assign_1_cast = sext i9 %sh_assign_1 to i32" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]
+ST_1 : Operation 17 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_2)   --->   "%sh_assign_1_cast_cas = sext i9 %sh_assign_1 to i25" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]
+ST_1 : Operation 18 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_2)   --->   "%tmp_7_i_i = zext i32 %sh_assign_1_cast to i79" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]
+ST_1 : Operation 19 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_2)   --->   "%tmp_8_i_i = lshr i25 %tmp_3_i_i, %sh_assign_1_cast_cas" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]   --->   Core 28 'Shift' <Latency = 0> <II = 1> <Delay = 4.42> <FuncUnit> <Opcode : 'shl' 'lshr' 'ashr'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 20 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_2)   --->   "%tmp_i_i = shl i79 %tmp_3_i_i_cast2, %tmp_7_i_i" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]   --->   Core 28 'Shift' <Latency = 0> <II = 1> <Delay = 4.42> <FuncUnit> <Opcode : 'shl' 'lshr' 'ashr'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 21 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_2)   --->   "%tmp = call i1 @_ssdm_op_BitSelect.i1.i25.i32(i25 %tmp_8_i_i, i32 24)" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:289->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]
+ST_1 : Operation 22 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_2)   --->   "%tmp_13 = zext i1 %tmp to i32" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:289->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]
+ST_1 : Operation 23 [1/1] (0.00ns) (grouped into LUT with out node p_Val2_2)   --->   "%tmp_14 = call i32 @_ssdm_op_PartSelect.i32.i79.i32.i32(i79 %tmp_i_i, i32 24, i32 55)" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:289->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]
+ST_1 : Operation 24 [1/1] (4.42ns) (out node of the LUT)   --->   "%p_Val2_2 = select i1 %isNeg, i32 %tmp_13, i32 %tmp_14" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.37> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+
+ <State 2> : 3.92ns
+ST_2 : Operation 25 [1/1] (2.55ns)   --->   "%p_Val2_6_i_i = sub i32 0, %p_Val2_2" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:318->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 26 [1/1] (1.37ns)   --->   "%p_Val2_4 = select i1 %p_Result_s, i32 %p_Val2_6_i_i, i32 %p_Val2_2" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:318->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.37> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_2 : Operation 27 [1/1] (0.00ns)   --->   "ret i32 %p_Val2_4" [/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49]
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 7.71ns
+The critical path consists of the following:
+	wire read on port 'x' [2]  (0 ns)
+	'sub' operation ('tmp_5_i_i', /wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49) [12]  (1.92 ns)
+	'select' operation ('sh', /wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49) [14]  (1.37 ns)
+	'lshr' operation ('tmp_8_i_i', /wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49) [18]  (0 ns)
+	'select' operation ('__Val2__', /wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49) [23]  (4.42 ns)
+
+ <State 2>: 3.92ns
+The critical path consists of the following:
+	'sub' operation ('p_Val2_6_i_i', /wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:318->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49) [24]  (2.55 ns)
+	'select' operation ('__Val2__', /wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:318->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49) [25]  (1.37 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A
