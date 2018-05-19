@@ -1,73 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58ce36fe-f347-4de3-a3df-668b2563a086" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CNNIOT.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Convolution.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/D1.bit" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/D1.tcl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/csynth.tcl" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/a.g.bc" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/a.g.bc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/a.o.bc" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/a.o.bc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/a.pp.0.bc" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/a.pp.0.bc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/a.pp.bc" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/a.pp.bc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/main.bc" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/main.bc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/main.g.bc" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/main.g.bc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/useless.bc" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/useless.bc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/xilinx_com_hls_cnn_1_0.zip" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/xilinx_com_hls_cnn_1_0.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/.vivado_hls_log_all.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/.vivado_hls_log_all.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/main.cpp" afterPath="$PROJECT_DIR$/deeplib/deeplib/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/.message_syn.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/.message_syn.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/a.o.ll" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/a.o.ll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/autopilot.flow.log" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/autopilot.flow.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/main.pp.0.cpp" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/main.pp.0.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/main.pp.0.cpp.ap-cdt.cpp" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/main.pp.0.cpp.ap-cdt.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/main.pp.0.cpp.ap-line.cpp" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/main.pp.0.cpp.ap-line.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/main.pragma.0.cpp" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/main.pragma.0.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/main.pragma.1.cpp" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/main.pragma.1.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/main.pragma.2.cpp" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/.autopilot/db/main.pragma.2.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/autoimpl.log" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/autoimpl.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/auxiliary.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/auxiliary.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/component.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/component.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/hdl/verilog/cnn.v" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/hdl/verilog/cnn.v" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/hdl/verilog/cnn_Bias.v" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/hdl/verilog/cnn_Bias.v" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/hdl/verilog/cnn_Input.v" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/hdl/verilog/cnn_Input.v" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/hdl/vhdl/cnn.vhd" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/hdl/vhdl/cnn.vhd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/hdl/vhdl/cnn_Bias.vhd" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/hdl/vhdl/cnn_Bias.vhd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/hdl/vhdl/cnn_Input.vhd" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/hdl/vhdl/cnn_Input.vhd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/run_ippack.tcl" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/run_ippack.tcl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/tmp.srcs/sources_1/ip/cnn_ap_fadd_3_full_dsp_32/cnn_ap_fadd_3_full_dsp_32.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/tmp.srcs/sources_1/ip/cnn_ap_fadd_3_full_dsp_32/cnn_ap_fadd_3_full_dsp_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/tmp.srcs/sources_1/ip/cnn_ap_fcmp_0_no_dsp_32/cnn_ap_fcmp_0_no_dsp_32.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/tmp.srcs/sources_1/ip/cnn_ap_fcmp_0_no_dsp_32/cnn_ap_fcmp_0_no_dsp_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/tmp.srcs/sources_1/ip/cnn_ap_fdiv_14_no_dsp_32/cnn_ap_fdiv_14_no_dsp_32.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/tmp.srcs/sources_1/ip/cnn_ap_fdiv_14_no_dsp_32/cnn_ap_fdiv_14_no_dsp_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/tmp.srcs/sources_1/ip/cnn_ap_fmul_2_max_dsp_32/cnn_ap_fmul_2_max_dsp_32.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/tmp.srcs/sources_1/ip/cnn_ap_fmul_2_max_dsp_32/cnn_ap_fmul_2_max_dsp_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/tmp.srcs/sources_1/ip/cnn_ap_sitofp_4_no_dsp_32/cnn_ap_sitofp_4_no_dsp_32.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/tmp.srcs/sources_1/ip/cnn_ap_sitofp_4_no_dsp_32/cnn_ap_sitofp_4_no_dsp_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/tmp.xpr" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/tmp.xpr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/vivado.jou" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/vivado.jou" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/vivado.log" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/ip/vivado.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/verilog/cnn.v" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/verilog/cnn.v" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/verilog/cnn_Bias.v" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/verilog/cnn_Bias.v" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/verilog/cnn_Input.v" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/verilog/cnn_Input.v" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/verilog/project.srcs/sources_1/ip/cnn_ap_fadd_3_full_dsp_32/cnn_ap_fadd_3_full_dsp_32.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/verilog/project.srcs/sources_1/ip/cnn_ap_fadd_3_full_dsp_32/cnn_ap_fadd_3_full_dsp_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/verilog/project.srcs/sources_1/ip/cnn_ap_fcmp_0_no_dsp_32/cnn_ap_fcmp_0_no_dsp_32.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/verilog/project.srcs/sources_1/ip/cnn_ap_fcmp_0_no_dsp_32/cnn_ap_fcmp_0_no_dsp_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/verilog/project.srcs/sources_1/ip/cnn_ap_fdiv_14_no_dsp_32/cnn_ap_fdiv_14_no_dsp_32.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/verilog/project.srcs/sources_1/ip/cnn_ap_fdiv_14_no_dsp_32/cnn_ap_fdiv_14_no_dsp_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/verilog/project.srcs/sources_1/ip/cnn_ap_fmul_2_max_dsp_32/cnn_ap_fmul_2_max_dsp_32.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/verilog/project.srcs/sources_1/ip/cnn_ap_fmul_2_max_dsp_32/cnn_ap_fmul_2_max_dsp_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/verilog/project.srcs/sources_1/ip/cnn_ap_sitofp_4_no_dsp_32/cnn_ap_sitofp_4_no_dsp_32.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/verilog/project.srcs/sources_1/ip/cnn_ap_sitofp_4_no_dsp_32/cnn_ap_sitofp_4_no_dsp_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/verilog/project.xpr" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/verilog/project.xpr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/vhdl/cnn.vhd" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/vhdl/cnn.vhd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/vhdl/cnn_Bias.vhd" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/vhdl/cnn_Bias.vhd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/vhdl/cnn_Input.vhd" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/vhdl/cnn_Input.vhd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/vhdl/project.srcs/sources_1/ip/cnn_ap_fadd_3_full_dsp_32/cnn_ap_fadd_3_full_dsp_32.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/vhdl/project.srcs/sources_1/ip/cnn_ap_fadd_3_full_dsp_32/cnn_ap_fadd_3_full_dsp_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/vhdl/project.srcs/sources_1/ip/cnn_ap_fcmp_0_no_dsp_32/cnn_ap_fcmp_0_no_dsp_32.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/vhdl/project.srcs/sources_1/ip/cnn_ap_fcmp_0_no_dsp_32/cnn_ap_fcmp_0_no_dsp_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/vhdl/project.srcs/sources_1/ip/cnn_ap_fdiv_14_no_dsp_32/cnn_ap_fdiv_14_no_dsp_32.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/vhdl/project.srcs/sources_1/ip/cnn_ap_fdiv_14_no_dsp_32/cnn_ap_fdiv_14_no_dsp_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/vhdl/project.srcs/sources_1/ip/cnn_ap_fmul_2_max_dsp_32/cnn_ap_fmul_2_max_dsp_32.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/vhdl/project.srcs/sources_1/ip/cnn_ap_fmul_2_max_dsp_32/cnn_ap_fmul_2_max_dsp_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/vhdl/project.srcs/sources_1/ip/cnn_ap_sitofp_4_no_dsp_32/cnn_ap_sitofp_4_no_dsp_32.xml" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/vhdl/project.srcs/sources_1/ip/cnn_ap_sitofp_4_no_dsp_32/cnn_ap_sitofp_4_no_dsp_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/vhdl/project.xpr" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/impl/vhdl/project.xpr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/solution1.aps" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/solution1.aps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/solution1.log" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/solution1.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/deeplib/solution1/solution1_data.json" afterPath="$PROJECT_DIR$/deeplib/deeplib/solution1/solution1_data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deeplib/vivado_hls.log" afterPath="$PROJECT_DIR$/deeplib/vivado_hls.log" />
-    </list>
+    <list default="true" id="58ce36fe-f347-4de3-a3df-668b2563a086" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -387,7 +321,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1345" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
