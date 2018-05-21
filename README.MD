@@ -150,10 +150,11 @@ source <install_path>/Vivado/2017.1/settings64.sh
 
 For generating bitstream using vivado please watch [my video tutorial.](https://www.youtube.com/watch?v=-svVmfeA3lk).
 
-## Team Member Contribution
+## Team Members
 * Mohammad Farhadi Bajestani
-* Yezhou Yang
 * Mehdi Ghasemi
+* Yezhou Yang
+
 
 ### References
 
