@@ -40,6 +40,7 @@ while(true)
 	float Input[30000],Weight[30000],Bias[2000];
 	float Temproray,Precision,Transfer_value,Convolve_value,Pool_Value;
 	int H_Result,W_Result,Index,Index2,Parameters[17],Counter,R_Plane,R_Row,Relu_Activation,Load_Input,Load_Weight,Stride_Size[2],Window_Size[2], Filter_size[4],Input_Size[3],Bias_Activation,Pooling_Mode;
+
 	// Get Module initial parameters
 
 	for(int idx=0; idx< (17); idx++)
@@ -47,6 +48,7 @@ while(true)
 		Transfer_value=0;
 		Parameters[idx]= Axi_Transfer(in_data, out_data,Transfer_value,1);
 	}
+
 
 	//Convoulution
 

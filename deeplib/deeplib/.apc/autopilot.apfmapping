@@ -4,6 +4,6 @@
     <originFiles name="main.cpp" path="/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/main.cpp"/>
   </source>
   <testbench>
-    <originFiles name="test.cpp" path="/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/test.cpp"/>
+    <originFiles name="test.cpp" path="/home/common/FPGA/CONV/CNNIOT/deeplib/test.cpp"/>
   </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>

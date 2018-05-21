@@ -1,4 +1,4 @@
-INFO: [HLS 200-0] Workspace /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1 opened at Fri May 18 12:31:35 MST 2018
+INFO: [HLS 200-0] Workspace /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1 opened at Sat May 19 16:18:27 MST 2018
 Execute     config_clock -quiet -name default -period 10 -default=false 
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
 Command     config_clock returned 0; 0 sec.
@@ -21,14 +21,14 @@ Command         ap_source returned 0; 0 sec.
 Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.lib 
 Command         ap_source returned 0; 0 sec.
 Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.lib 
-Command         ap_source returned 0; 0.01 sec.
+Command         ap_source returned 0; 0 sec.
 Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.lib 
 Command         ap_source returned 0; 0 sec.
 Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.lib 
 Command         ap_source returned 0; 0 sec.
 Command       ap_source returned 0; 0.01 sec.
 Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_old.lib 
-Command       ap_source returned 0; 0.01 sec.
+Command       ap_source returned 0; 0 sec.
 Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_vivado.lib 
 Command       ap_source returned 0; 0 sec.
 Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.hlp 
@@ -42,7 +42,7 @@ Command           ap_source returned 0; 0 sec.
 Command         ap_source returned 0; 0 sec.
 Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.hlp 
 Command         ap_source returned 0; 0 sec.
-Command       ap_source returned 0; 0.01 sec.
+Command       ap_source returned 0; 0 sec.
 Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/dsp48e1.hlp 
 Command       ap_source returned 0; 0 sec.
 Execute       get_default_platform 
@@ -61,9 +61,9 @@ Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/tec
 Command           ap_source returned 0; 0 sec.
 Command         ap_source returned 0; 0 sec.
 Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.hlp 
-Command         ap_source returned 0; 0.01 sec.
+Command         ap_source returned 0; 0 sec.
 Command       ap_source returned 0; 0.01 sec.
-Command     import_lib returned 0; 0.04 sec.
+Command     import_lib returned 0; 0.03 sec.
 Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
 Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
 Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
@@ -75,27 +75,27 @@ Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/tec
 Command           ap_source returned 0; 0 sec.
 Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
 Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
-Command             ap_source returned 0; 0 sec.
+Command             ap_source returned 0; 0.01 sec.
 Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
 Command             ap_source returned 0; 0.01 sec.
 Command           ap_source returned 0; 0.02 sec.
 Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Command           ap_source returned 0; 0.02 sec.
+Command           ap_source returned 0; 0.01 sec.
 Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Command           ap_source returned 0; 0 sec.
+Command           ap_source returned 0; 0.01 sec.
 Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
 Command           ap_source returned 0; 0 sec.
 Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
-Command           ap_source returned 0; 0 sec.
+Command           ap_source returned 0; 0.01 sec.
 Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
-Command           ap_source returned 0; 0.13 sec.
+Command           ap_source returned 0; 0.12 sec.
 Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
 Command           ap_source returned 0; 0 sec.
-Command         ap_source returned 0; 0.18 sec.
+Command         ap_source returned 0; 0.17 sec.
 Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
 Command         ap_source returned 0; 0 sec.
 Command       ap_source returned 0; 0.18 sec.
-Command     ap_source returned 0; 0.18 sec.
+Command     ap_source returned 0; 0.19 sec.
 Execute     open_platform DefaultPlatform 
 Command     open_platform returned 0; 0 sec.
 Execute     import_lib /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6 
@@ -114,22 +114,22 @@ Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/t
 Command             ap_source returned 0; 0 sec.
 Command           ap_source returned 0; 0 sec.
 Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.hlp 
-Command           ap_source returned 0; 0.01 sec.
-Command         ap_source returned 0; 0.01 sec.
-Command       ap_source returned 0; 0.01 sec.
+Command           ap_source returned 0; 0 sec.
+Command         ap_source returned 0; 0 sec.
+Command       ap_source returned 0; 0 sec.
 Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_hp.hlp 
 Command       ap_source returned 0; 0 sec.
-Command     import_lib returned 0; 0.04 sec.
+Command     import_lib returned 0; 0.03 sec.
 Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
 Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
-Command       ap_source returned 0; 0 sec.
-Command     ap_source returned 0; 0 sec.
+Command       ap_source returned 0; 0.01 sec.
+Command     ap_source returned 0; 0.01 sec.
 Execute     set_part xc7z020clg400-1 
 Execute       add_library xilinx/zynq/zynq:xc7z020:clg400:-1 
 Execute         get_default_platform 
 Command         get_default_platform returned 0; 0 sec.
 Execute         license_isbetapart xc7z020 
-Command         license_isbetapart returned 1; 0.01 sec.
+Command         license_isbetapart returned 1; 0.02 sec.
 Execute         get_default_platform 
 Command         get_default_platform returned 0; 0 sec.
 Execute         config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
@@ -144,613 +144,831 @@ Command       add_library returned 0; 0 sec.
 INFO: [HLS 200-10] Setting target device to 'xc7z020clg400-1'
 Execute       get_default_platform 
 Command       get_default_platform returned 0; 0 sec.
-Command     set_part returned 0; 0.07 sec.
+Command     set_part returned 0; 0.06 sec.
 Execute     get_default_platform 
 Command     get_default_platform returned 0; 0 sec.
 Execute     config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
 Command     config_chip_info returned 0; 0 sec.
 Execute     config_chip_info -quiet -speed slow 
 Command     config_chip_info returned 0; 0 sec.
-Command   open_solution returned 0; 0.55 sec.
-Execute   export_design -rtl verilog -format ip_catalog 
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
+Command   open_solution returned 0; 0.33 sec.
+Execute   set_part xc7z020clg400-1 -tool vivado 
+Execute     add_library xilinx/zynq/zynq:xc7z020:clg400:-1 
+Execute       get_default_platform 
+Command       get_default_platform returned 0; 0 sec.
+Execute       license_isbetapart xc7z020 
+Command       license_isbetapart returned 1; 0 sec.
+Execute       get_default_platform 
+Command       get_default_platform returned 0; 0 sec.
+Execute       config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Command       config_chip_info returned 0; 0 sec.
+Execute       config_chip_info -quiet -speed slow 
+Command       config_chip_info returned 0; 0 sec.
+Command     add_library returned 0; 0 sec.
+Execute     add_library xilinx/zynq/zynq_fpv6 
+Execute       get_default_platform 
+Command       get_default_platform returned 0; 0 sec.
+Command     add_library returned 0; 0 sec.
+Execute     get_default_platform 
+Command     get_default_platform returned 0; 0 sec.
+Command   set_part returned 0; 0.05 sec.
+Execute   create_clock -period 10 -name default 
+Command   create_clock returned 0; 0.01 sec.
+Execute   csynth_design 
+Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -lm=0 -skip_cdt=0 -skip_transform=0 -VP9_rom_infer_simplify=0 -ng=0 -g=0 -opt_fp=0 -enable_clang39=0 
+INFO: [HLS 200-10] Analyzing design file 'deeplib/main.cpp' ...
+INFO: [HLS 200-0] Compiling one TU...
+Execute       is_m_axi_addr64 
+Command       is_m_axi_addr64 returned 0; 0 sec.
+INFO: [HLS 200-0] Handling deeplib/main.cpp as C++
+Execute       get_default_platform 
+Command       get_default_platform returned 0; 0 sec.
+Execute       is_encrypted deeplib/main.cpp 
+Command       is_encrypted returned 0; 0 sec.
+Execute       get_default_platform 
+Command       get_default_platform returned 0; 0 sec.
+INFO: [HLS 200-0] Source preprocessing
+Execute       clang  -fno-limit-debug-info -gcc-toolchain "/media/common/DATAPART1/vivado/Vivado/2017.4/lnx64/tools/gcc" -hls  -fno-exceptions  -D__llvm__  -E "deeplib/main.cpp"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/autopilot" -I "/media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  -o "/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.pp.0.cpp" 
+INFO: [HLS 200-0] exec clang -fno-limit-debug-info -gcc-toolchain /media/common/DATAPART1/vivado/Vivado/2017.4/lnx64/tools/gcc -hls -fno-exceptions -D__llvm__ -E deeplib/main.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/autopilot -I /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.pp.0.cpp
+Command       clang returned 0; 1.84 sec.
+INFO: [HLS 200-0] Syntax Checking before pre-processing...
+Execute       clang  -fno-limit-debug-info -gcc-toolchain "/media/common/DATAPART1/vivado/Vivado/2017.4/lnx64/tools/gcc" -hls    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/autopilot" -I "/media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  "/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.pp.0.cpp"  -o "/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/useless.bc"  
+INFO: [HLS 200-0] exec clang -fno-limit-debug-info -gcc-toolchain /media/common/DATAPART1/vivado/Vivado/2017.4/lnx64/tools/gcc -hls -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/autopilot -I /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.pp.0.cpp -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/useless.bc
+Command       clang returned 0; 2.57 sec.
+INFO: [HLS 200-0] GCC PP time: 4 seconds per iteration
+Execute       list_core -type functional_unit 
+Command       list_core returned 0; 0 sec.
+INFO: [HLS 200-0] CDT Preprocessing...
+INFO: [HLS 200-0] Marker-Pragma convertor: /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.pp.0.cpp /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.pp.0.cpp.ap-line.cpp /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.pp.0.cpp.ap-line.cpp.CXX 1
+INFO: [HLS 200-0] Converting Markers to Pragmas...
+Execute       cdt  "/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.pp.0.cpp.ap-line.cpp"  -m "cnn" -o "/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.pp.0.cpp.ap-cdt.cpp" --pp --directive /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/solution1.directive --source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/main.cpp --error /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db --funcunit "AddSub AddSub_DSP AddSubnS DAddSub_fulldsp DAddSub_nodsp DDiv DExp_fulldsp DExp_meddsp DExp_nodsp DLog_fulldsp DLog_meddsp DLog_nodsp DMul_fulldsp DMul_maxdsp DMul_meddsp DMul_nodsp DRSqrt DRecip DSP_Double_Pump_Mac16 DSP_Double_Pump_Mac8 DSP_Macro DSqrt DivnS FAddSub_fulldsp FAddSub_nodsp FDiv FExp_fulldsp FExp_meddsp FExp_nodsp FLog_fulldsp FLog_meddsp FLog_nodsp FMul_fulldsp FMul_maxdsp FMul_meddsp FMul_nodsp FRSqrt_fulldsp FRSqrt_nodsp FRecip_fulldsp FRecip_nodsp FSqrt HAddSub_fulldsp HAddSub_meddsp HAddSub_nodsp HDiv HMul_fulldsp HMul_maxdsp HMul_nodsp HSqrt Mul Mul2S Mul3S Mul4S Mul5S Mul6S Mul_LUT MulnS MuxnS" --ve --vetcl /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db --ca --es --gf --pd --p2d /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db --sd --scff /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/.systemc_flag --ad 
+INFO: [HLS 200-0] Error:Syntax error in source:for (__decltype(__n + 0) __niter = __n;
+Error:Missing ; in source:t
+Error:Syntax error in source:)
+ *__first = __value;
+Error:Syntax error in source:for (__decltype(__n + 0) __niter = __n;
+Error:Missing ; in source:t
+Error:Syntax error in source:)
+ *__first = __tmp;
+Command       cdt returned 0; 8.58 sec.
+INFO: [HLS 200-0] Marker-Pragma convertor: /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.pp.0.cpp.ap-cdt.cpp /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.pragma.0.cpp /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.pragma.0.cpp.ap-line.CXX 0
+INFO: [HLS 200-0] Converting Pragmas to Markers...
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/pragma.status.tcl 
 Command       ap_source returned 0; 0 sec.
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
-Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
+INFO: [HLS 200-0] Pragma Handling...
+INFO: [HLS 200-0] Source preprocessing
+Execute       clang  -fno-limit-debug-info -gcc-toolchain "/media/common/DATAPART1/vivado/Vivado/2017.4/lnx64/tools/gcc" -hls  -fno-exceptions  -D__llvm__  -E "/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.pragma.1.cpp"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/autopilot" -I "/media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  -o "/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.pragma.2.cpp" 
+INFO: [HLS 200-0] exec clang -fno-limit-debug-info -gcc-toolchain /media/common/DATAPART1/vivado/Vivado/2017.4/lnx64/tools/gcc -hls -fno-exceptions -D__llvm__ -E /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.pragma.1.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/autopilot -I /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.pragma.2.cpp
+Command       clang returned 0; 1.72 sec.
+Execute       get_default_platform 
+Command       get_default_platform returned 0; 0 sec.
+INFO: [HLS 200-0] Processing labels
+Execute       clang  -fno-limit-debug-info -gcc-toolchain /media/common/DATAPART1/vivado/Vivado/2017.4/lnx64/tools/gcc -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions  -D__llvm__  -w  "/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.pragma.2.cpp"    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/autopilot" -I "/media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o "/home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.g.bc" 
+INFO: [HLS 200-0] exec clang -fno-limit-debug-info -gcc-toolchain /media/common/DATAPART1/vivado/Vivado/2017.4/lnx64/tools/gcc -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions -D__llvm__ -w /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.pragma.2.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/autopilot -I /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.g.bc
+Command       clang returned 0; 2.48 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/ve_warning.tcl 
+Command       ap_source returned 0; 0 sec.
+INFO: [HLS 200-10] Validating synthesis directives ...
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/pragma.status.tcl 
+Command       ap_source returned 0; 0 sec.
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:35 ; elapsed = 00:00:20 . Memory (MB): peak = 359.953 ; gain = 13.375 ; free physical = 35809 ; free virtual = 117089
+INFO: [HLS 200-0] Linking Release ...
+Execute       llvm-ld /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.bc -hls-opt -except-internalize cnn -L/media/common/DATAPART1/vivado/Vivado/2017.4/lnx64/lib -lm_basic -lhlsmc++ -lhlsm -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.o 
+Command       llvm-ld returned 0; 0.96 sec.
+Execute       disassemble /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.o 
+Execute         is_encrypted /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.o.bc 
+Command         is_encrypted returned 0; 0 sec.
+Command       disassemble returned 0; 0.86 sec.
+INFO: [HLS 200-0] Disassemble time: 0 seconds per iteration
+INFO: [HLS 200-0] Linking Debug ...
+Execute       llvm-ld /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/main.g.bc -hls-opt -except-internalize cnn -L/media/common/DATAPART1/vivado/Vivado/2017.4/lnx64/lib -lm_basic -lhlsmc++ -lhlsm -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.g 
+Command       llvm-ld returned 0; 0.96 sec.
+INFO: [HLS 200-0] Disassemble time: 0 seconds per iteration
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:38 ; elapsed = 00:00:23 . Memory (MB): peak = 359.953 ; gain = 13.375 ; free physical = 35783 ; free virtual = 117072
+Execute       ::config_rtl 
+Command       config_rtl returned 0; 0 sec.
+Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 -enable_clang39=0 -VP9_rom_infer_simplify=0 
+Execute         cleanup_all_models 
+Command         cleanup_all_models returned 0; 0 sec.
+INFO: [HLS 200-10] Starting code transformations ...
+Execute         transform -promote-dbg-pointer /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.pp.bc -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.pp.0.bc -f 
+Command         transform returned 0; 0.03 sec.
+Execute         llvm-ld /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.pp.0.bc -disable-opt -L/media/common/DATAPART1/vivado/Vivado/2017.4/lnx64/lib -lfloatconversion -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.g.0 
+Command         llvm-ld returned 0; 1.69 sec.
+INFO: [HLS 200-0] Running Standard Transforms...
+Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -prune-eh -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top cnn -deadargelim -mem2reg -instcombine -dce -presyn-prepare -auto-rom-infer -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -func-inst -deadargelim -auto-shift-reg-idiom -promote-dbg-pointer -norm-name /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.g.0.bc -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.g.1.bc -f -phase std-opt 
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<79, 55, false, (ap_q_mode)5, (ap_o_mode)3, 0>::operator<<' into 'generic_cast_IEEE754<int, (ap_q_mode)6, float>' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286).
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<1, 32, false, (ap_q_mode)5, (ap_o_mode)0, 0>::overflow_adjust' into 'ap_fixed_base<1, 32, false, (ap_q_mode)5, (ap_o_mode)0, 0>::ap_fixed_base<79, 55, false, (ap_q_mode)5, (ap_o_mode)3, 0>' ().
+Command         transform returned 0; 1.08 sec.
+Execute         disassemble /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.g.1 /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.g.1 
+Execute           is_encrypted /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.g.1.bc 
+Command           is_encrypted returned 0; 0 sec.
+Command         disassemble returned 0; 1.21 sec.
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:41 ; elapsed = 00:00:27 . Memory (MB): peak = 490.938 ; gain = 144.359 ; free physical = 35645 ; free virtual = 116979
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-0] Checking Synthesizability 1/2..
+Execute         transform -hls -syn-check -check-rec-only -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -function-uniquify -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce -array-normalize -instcombine -dce -warn-fifo-pointer -array-seg-normalize -instcombine -dce -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -function-uniquify -directive-preproc -mem2reg -dse -dce -globaldce /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.g.1.bc -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.g.2.prechk.bc -f 
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::mantissa' into 'generic_cast_IEEE754<int, (ap_q_mode)6, float>' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:283) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::expv' into 'generic_cast_IEEE754<int, (ap_q_mode)6, float>' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::__signbit' into 'generic_cast_IEEE754<int, (ap_q_mode)6, float>' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:318) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<int, (ap_q_mode)6, float>' into 'generic_cast_IEEE754<int, float>' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<int, float>' into '__hls_fptosi_float_i32' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49) automatically.
+Command         transform returned 0; 0.54 sec.
+INFO: [HLS 200-0] Checking Synthesizability 2/2..
+Execute         transform -syn-check /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.g.2.prechk.bc -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.g.2.bc -f -phase syn-check 
+Command         transform returned 0; 0.31 sec.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:42 ; elapsed = 00:00:28 . Memory (MB): peak = 551.949 ; gain = 205.371 ; free physical = 35589 ; free virtual = 116934
+INFO: [HLS 200-0] Compiler optimizing ...
+INFO: [HLS 200-0] Share syncheck's 1.bc for syn flow: copy /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.g.1.bc to /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.o.1.bc
+INFO: [HLS 200-0] Presyn 1...
+Execute         transform -hls -tmp /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db -interface-port-rename -type-info -function-uniquify -directive-preproc -mem2reg -dse -dce -disaggr -scalarrepl -norm-name -deadargelim -mem2reg -instcombine -dce -auto-rom-infer -dce -function-uniquify -resource-proc -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -clib-intrinsic-prepare -dce -func-buffer -dce -array-normalize -func-legal -instcombine -gvn -constprop -dce -ptrArgReplace -mem2reg -instcombine -dce -array-seg-normalize -deadargelim -instcombine -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -simplifycfg -find-region -instcombine -auto-loop-pipeline -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -auto-loop-unroll -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -array-promote -constprop -instcombine -dce -ptrArgReplace -mem2reg -instcombine -simplifycfg -dce -auto-par -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -duplicate-dataflow-processes -globaldce -instcombine -array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -instcombine -dce -global-constprop -deadargelim -mem2reg -instcombine -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -array-promote -constprop -instcombine -dce -ptrArgReplace -mem2reg -instcombine -simplifycfg -dce -mem-intrinsic-preproc -dce -global-privatize -mem2reg -globaldce -promote-global-argument -ptrArgReplace -mem2reg -instcombine -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -inst-simplify -dce -norm-name -function-inline -globaldce -func-inst -constprop -instcombine -simplifycfg -dce -func-legal -dce -loop-bound -arraycheck -bitwidthmin -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -loop-stream -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -check-dataflow-syntax -legalize-stream-variable -legalize-global -extract-subproc -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -deadargelim -annotate-dataflow-channels -scalar-propagation -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -function-uniquify -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -norm-name /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.o.1.bc -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.o.1.tmp.bc -f 
+WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'out_data.data.V' (deeplib/main.cpp:32).
+WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'in_data.data.V' (deeplib/main.cpp:32).
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'Loop-1.5.1.1' (deeplib/main.cpp:125) in function 'cnn' for pipelining.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'Loop-1.7.1.1' (deeplib/main.cpp:209) in function 'cnn' for pipelining.
+WARNING: [XFORM 203-503] Cannot unroll loop 'Loop-1.5.1.1.1' (deeplib/main.cpp:130) in function 'cnn': cannot completely unroll a loop with a variable trip count.
+WARNING: [XFORM 203-503] Cannot unroll loop 'Loop-1.5.1.1.1.1' (deeplib/main.cpp:133) in function 'cnn': cannot completely unroll a loop with a variable trip count.
+WARNING: [XFORM 203-503] Cannot unroll loop 'Loop-1.5.1.1.1.1.1' (deeplib/main.cpp:136) in function 'cnn': cannot completely unroll a loop with a variable trip count.
+WARNING: [XFORM 203-503] Cannot unroll loop 'Loop-1.7.1.1.1' (deeplib/main.cpp:213) in function 'cnn': cannot completely unroll a loop with a variable trip count.
+WARNING: [XFORM 203-503] Cannot unroll loop 'Loop-1.7.1.1.1.1' (deeplib/main.cpp:215) in function 'cnn': cannot completely unroll a loop with a variable trip count.
+INFO: [XFORM 203-102] Partitioning array 'Filter_size' (deeplib/main.cpp:42) automatically.
+INFO: [XFORM 203-102] Partitioning array 'Input_Size' (deeplib/main.cpp:42) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::mantissa' into 'generic_cast_IEEE754<int, (ap_q_mode)6, float>' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:283) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::expv' into 'generic_cast_IEEE754<int, (ap_q_mode)6, float>' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::__signbit' into 'generic_cast_IEEE754<int, (ap_q_mode)6, float>' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:318) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<int, (ap_q_mode)6, float>' into 'generic_cast_IEEE754<int, float>' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<int, float>' into '__hls_fptosi_float_i32' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49) automatically.
+Command         transform returned 0; 1.01 sec.
+INFO: [HLS 200-0] Presyn 2...
+Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -auto-burst -norm-name /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.o.1.tmp.bc -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.o.2.bc -f -phase presyn 
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (deeplib/main.cpp:145:15) to (deeplib/main.cpp:125:44) in function 'cnn'... converting 5 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (deeplib/main.cpp:218:8) to (deeplib/main.cpp:215:37) in function 'cnn'... converting 7 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (deeplib/main.cpp:245:15) to (deeplib/main.cpp:209:44) in function 'cnn'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (deeplib/main.cpp:299:5) to (deeplib/main.cpp:290:41) in function 'cnn'... converting 5 basic blocks.
+INFO: [XFORM 203-11] Balancing expressions in function 'cnn' (deeplib/main.cpp:32)...6 expression(s) balanced.
+Command         transform returned 0; 0.57 sec.
+Execute         disassemble /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.o.2 /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.o.2 
+Execute           is_encrypted /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.o.2.bc 
+Command           is_encrypted returned 0; 0 sec.
+Command         disassemble returned 0; 1.21 sec.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:45 ; elapsed = 00:00:30 . Memory (MB): peak = 554.379 ; gain = 207.801 ; free physical = 35496 ; free virtual = 116843
+INFO: [HLS 200-0] Building ssdm...
+Execute         transform -hls -function-uniquify -auto-function-inline -globaldce -ptrArgReplace -mem2reg -instcombine -dce -reset-lda -loop-simplify -indvars -licm -loop-dep -loop-bound -licm -loop-simplify -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg -loop-simplify -array-burst -promote-global-argument -dce -axi4-lower -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -disaggr -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -auto-rom-infer -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -cfgopt -simplifycfg -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -bitwidthmin -deadargelim -dce -canonicalize-dataflow -dce -scalar-propagation -deadargelim -globaldce -mem2reg -interface-preproc -directive-preproc -interface-gen -deadargelim -inst-simplify -dce -gvn -mem2reg -instcombine -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg -loop-simplify -mergereturn -inst-simplify -inst-rectify -dce -bitop-lower -loop-rewind -pointer-simplify -dce -cfgopt -read-loop-dep -dce -bitwidth -loop-dep -check-stream -norm-name -legalize -validate-dataflow -cdfg-build /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.o.2.bc -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
+INFO: [XFORM 203-603] Evaluating the output(s) of a call to function '__hls_fptosi_float_i32' (deeplib/main.cpp:49:20) in function 'cnn' and propagating its result(s) since all actual argument(s) to the function are constants.
+INFO: [XFORM 203-603] Evaluating the output(s) of a call to function '__hls_fptosi_float_i32' (deeplib/main.cpp:93:16) in function 'cnn' and propagating its result(s) since all actual argument(s) to the function are constants.
+INFO: [XFORM 203-603] Evaluating the output(s) of a call to function '__hls_fptosi_float_i32' (deeplib/main.cpp:102:15) in function 'cnn' and propagating its result(s) since all actual argument(s) to the function are constants.
+INFO: [XFORM 203-603] Evaluating the output(s) of a call to function '__hls_fptosi_float_i32' (deeplib/main.cpp:285:17) in function 'cnn' and propagating its result(s) since all actual argument(s) to the function are constants.
+                         Cannot flatten a loop nest 'Loop-1.5.1.1' (deeplib/main.cpp:125:28) in function 'cnn' : 
+
+the outer loop is not a perfect loop because there is nontrivial logic in the loop latch.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.5.1' (deeplib/main.cpp:123:24) in function 'cnn'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.5' (deeplib/main.cpp:121:20) in function 'cnn'.
+                         Cannot flatten a loop nest 'Loop-1.7.1.1' (deeplib/main.cpp:209:28) in function 'cnn' : 
+
+the outer loop is not a perfect loop because there is nontrivial logic before entering the inner loop.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.7.1' (deeplib/main.cpp:207:24) in function 'cnn'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.7' (deeplib/main.cpp:205:20) in function 'cnn'.
+WARNING: [XFORM 203-561] 'Loop-1' (deeplib/main.cpp:46:15) in function 'cnn' is an infinite loop.
+                         Cannot flatten a loop nest 'Loop-1' (deeplib/main.cpp:46:15) in function 'cnn' : 
+
+more than one sub loop.
+WARNING: [XFORM 203-631] Renaming function '__hls_fptosi_float_i32' to '__hls_fptosi_float_i' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49:54)
+Command         transform returned 0; 0.82 sec.
+Execute         disassemble /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.o.3 /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.o.3 
+Execute           is_encrypted /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.o.3.bc 
+Command           is_encrypted returned 0; 0 sec.
+Command         disassemble returned 0; 0.96 sec.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:46 ; elapsed = 00:00:32 . Memory (MB): peak = 618.250 ; gain = 271.672 ; free physical = 35478 ; free virtual = 116834
+INFO: [HLS 200-0] Finish building internal data model.
+Command       opt_and_import_c returned 0; 9.45 sec.
+Command     elaborate returned 0; 30.93 sec.
+Execute     autosyn 
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-0] Synthesizing C/C++ design ...
+INFO: [HLS 200-10] Synthesizing 'cnn' ...
+Execute       ap_set_top_model cnn 
+WARNING: [SYN 201-103] Legalizing function name '__hls_fptosi_float_i' to 'p_hls_fptosi_float_i'.
+Command       ap_set_top_model returned 0; 0 sec.
+Execute       get_model_list cnn -filter all-wo-channel -topdown 
+Command       get_model_list returned 0; 0 sec.
+Execute       preproc_iomode -model cnn 
+Command       preproc_iomode returned 0; 0 sec.
+Execute       preproc_iomode -model __hls_fptosi_float_i 
+Command       preproc_iomode returned 0; 0 sec.
+Execute       preproc_iomode -model Axi_Transfer 
+Command       preproc_iomode returned 0; 0 sec.
+Execute       get_model_list cnn -filter all-wo-channel 
+Command       get_model_list returned 0; 0 sec.
+INFO: [HLS 200-0] Model list for configure: Axi_Transfer __hls_fptosi_float_i cnn
+INFO: [HLS 200-0] Configuring Module : Axi_Transfer ...
+Execute       set_default_model Axi_Transfer 
+Command       set_default_model returned 0; 0 sec.
+Execute       apply_spec_resource_limit Axi_Transfer 
+Command       apply_spec_resource_limit returned 0; 0 sec.
+INFO: [HLS 200-0] Configuring Module : __hls_fptosi_float_i ...
+Execute       set_default_model __hls_fptosi_float_i 
+Command       set_default_model returned 0; 0 sec.
+Execute       apply_spec_resource_limit __hls_fptosi_float_i 
+Command       apply_spec_resource_limit returned 0; 0 sec.
+INFO: [HLS 200-0] Configuring Module : cnn ...
+Execute       set_default_model cnn 
+Command       set_default_model returned 0; 0.01 sec.
+Execute       apply_spec_resource_limit cnn 
+Command       apply_spec_resource_limit returned 0; 0 sec.
+INFO: [HLS 200-0] Model list for preprocess: Axi_Transfer __hls_fptosi_float_i cnn
+INFO: [HLS 200-0] Preprocessing Module: Axi_Transfer ...
+Execute       set_default_model Axi_Transfer 
+Command       set_default_model returned 0; 0 sec.
+Execute       cdfg_preprocess -model Axi_Transfer 
+Command       cdfg_preprocess returned 0; 0 sec.
+Execute       rtl_gen_preprocess Axi_Transfer 
+Command       rtl_gen_preprocess returned 0; 0 sec.
+INFO: [HLS 200-0] Preprocessing Module: __hls_fptosi_float_i ...
+Execute       set_default_model __hls_fptosi_float_i 
+Command       set_default_model returned 0; 0 sec.
+Execute       cdfg_preprocess -model __hls_fptosi_float_i 
+Command       cdfg_preprocess returned 0; 0 sec.
+Execute       rtl_gen_preprocess __hls_fptosi_float_i 
+Command       rtl_gen_preprocess returned 0; 0 sec.
+INFO: [HLS 200-0] Preprocessing Module: cnn ...
+Execute       set_default_model cnn 
+Command       set_default_model returned 0; 0 sec.
+Execute       cdfg_preprocess -model cnn 
+Command       cdfg_preprocess returned 0; 0.01 sec.
+Execute       rtl_gen_preprocess cnn 
+Command       rtl_gen_preprocess returned 0; 0 sec.
+INFO: [HLS 200-0] Model list for synthesis: Axi_Transfer __hls_fptosi_float_i cnn
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Axi_Transfer'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model Axi_Transfer 
+Command       set_default_model returned 0; 0 sec.
+Execute       schedule -model Axi_Transfer 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'Axi_Transfer'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 1.
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule returned 0; 0.02 sec.
+INFO: [HLS 200-111]  Elapsed time: 32.18 seconds; current allocated memory: 212.216 MB.
+Execute       report -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.verbose.sched.rpt -verbose -f 
+Command       report returned 0; 0.01 sec.
+Execute       db_write -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.sched.adb -f 
+Command       db_write returned 0; 0 sec.
+INFO: [HLS 200-0] Finish scheduling Axi_Transfer.
+Execute       set_default_model Axi_Transfer 
+Command       set_default_model returned 0; 0 sec.
+Execute       bind -model Axi_Transfer 
+INFO: [BIND 205-110] clear=
+INFO: [BIND 205-110] debug=
+INFO: [BIND 205-110] drf=
+INFO: [BIND 205-110] effort=
+INFO: [BIND 205-110] fast_refine=
+INFO: [BIND 205-110] fu_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-110] global_opt=
+INFO: [BIND 205-110] gsearch=
+INFO: [BIND 205-110] help=
+INFO: [BIND 205-110] help-hidden=
+INFO: [BIND 205-110] min_mem_port=
+INFO: [BIND 205-110] min_op=
+INFO: [BIND 205-110] minreg=
+INFO: [BIND 205-110] ml=
+INFO: [BIND 205-110] model=Axi_Transfer
+INFO: [BIND 205-110] no_false_path=
+INFO: [BIND 205-110] no_min_op=
+INFO: [BIND 205-110] normalize=
+INFO: [BIND 205-110] quiet=
+INFO: [BIND 205-110] refine=
+INFO: [BIND 205-110] reg_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-110] search=
+INFO: [BIND 205-110] tight_delay=
+INFO: [BIND 205-110] verbose=
+INFO: [BIND 205-110] wFF=
+INFO: [BIND 205-110] wFU=
+INFO: [BIND 205-110] wMUX=
+INFO: [BIND 205-110] wNET=
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command       bind returned 0; 0.01 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.02 seconds; current allocated memory: 212.377 MB.
+Execute       report -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.verbose.bind.rpt -verbose -f 
+Command       report returned 0; 0.01 sec.
+Execute       db_write -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.bind.adb -f 
+Command       db_write returned 0; 0 sec.
+INFO: [HLS 200-0] Finish binding Axi_Transfer.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'p_hls_fptosi_float_i'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model __hls_fptosi_float_i 
+Command       set_default_model returned 0; 0 sec.
+Execute       schedule -model __hls_fptosi_float_i 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function '__hls_fptosi_float_i'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule returned 0; 0.04 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.05 seconds; current allocated memory: 212.551 MB.
+Execute       report -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/p_hls_fptosi_float_i.verbose.sched.rpt -verbose -f 
+Command       report returned 0; 0.01 sec.
+Execute       db_write -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/p_hls_fptosi_float_i.sched.adb -f 
+Command       db_write returned 0; 0 sec.
+INFO: [HLS 200-0] Finish scheduling __hls_fptosi_float_i.
+Execute       set_default_model __hls_fptosi_float_i 
+Command       set_default_model returned 0; 0 sec.
+Execute       bind -model __hls_fptosi_float_i 
+INFO: [BIND 205-110] clear=
+INFO: [BIND 205-110] debug=
+INFO: [BIND 205-110] drf=
+INFO: [BIND 205-110] effort=
+INFO: [BIND 205-110] fast_refine=
+INFO: [BIND 205-110] fu_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-110] global_opt=
+INFO: [BIND 205-110] gsearch=
+INFO: [BIND 205-110] help=
+INFO: [BIND 205-110] help-hidden=
+INFO: [BIND 205-110] min_mem_port=
+INFO: [BIND 205-110] min_op=
+INFO: [BIND 205-110] minreg=
+INFO: [BIND 205-110] ml=
+INFO: [BIND 205-110] model=__hls_fptosi_float_i
+INFO: [BIND 205-110] no_false_path=
+INFO: [BIND 205-110] no_min_op=
+INFO: [BIND 205-110] normalize=
+INFO: [BIND 205-110] quiet=
+INFO: [BIND 205-110] refine=
+INFO: [BIND 205-110] reg_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-110] search=
+INFO: [BIND 205-110] tight_delay=
+INFO: [BIND 205-110] verbose=
+INFO: [BIND 205-110] wFF=
+INFO: [BIND 205-110] wFU=
+INFO: [BIND 205-110] wMUX=
+INFO: [BIND 205-110] wNET=
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command       bind returned 0; 0.01 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.03 seconds; current allocated memory: 212.656 MB.
+Execute       report -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/p_hls_fptosi_float_i.verbose.bind.rpt -verbose -f 
+Command       report returned 0; 0.02 sec.
+Execute       db_write -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/p_hls_fptosi_float_i.bind.adb -f 
+Command       db_write returned 0; 0.01 sec.
+INFO: [HLS 200-0] Finish binding __hls_fptosi_float_i.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cnn'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model cnn 
+Command       set_default_model returned 0; 0 sec.
+Execute       schedule -model cnn 
+INFO: [SCHED 204-11] Starting scheduling ...
+WARNING: [SCHED 204-65] Unable to satisfy pipeline directive: Loop contains subloop(s) not being unrolled or flattened.
+WARNING: [SCHED 204-65] Unable to satisfy pipeline directive: Loop contains subloop(s) not being unrolled or flattened.
+WARNING: [SCHED 204-21] Estimated clock period (10.0155ns) exceeds the target (target clock period: 10ns, clock uncertainty: 1.25ns, effective delay budget: 8.75ns).
+WARNING: [SCHED 204-21] The critical path consists of the following:
+	'call' operation ('tmp_4', deeplib/main.cpp:81) to 'Axi_Transfer' (3.6 ns)
+	'sitofp' operation ('Temproray', deeplib/main.cpp:81) (6.41 ns)
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule returned 0; 0.93 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.97 seconds; current allocated memory: 216.458 MB.
+Execute       report -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.verbose.sched.rpt -verbose -f 
+Command       report returned 0; 0.7 sec.
+Execute       db_write -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.sched.adb -f 
+Command       db_write returned 0; 0.07 sec.
+INFO: [HLS 200-0] Finish scheduling cnn.
+Execute       set_default_model cnn 
+Command       set_default_model returned 0; 0.01 sec.
+Execute       bind -model cnn 
+INFO: [BIND 205-110] clear=
+INFO: [BIND 205-110] debug=
+INFO: [BIND 205-110] drf=
+INFO: [BIND 205-110] effort=
+INFO: [BIND 205-110] fast_refine=
+INFO: [BIND 205-110] fu_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-110] global_opt=
+INFO: [BIND 205-110] gsearch=
+INFO: [BIND 205-110] help=
+INFO: [BIND 205-110] help-hidden=
+INFO: [BIND 205-110] min_mem_port=
+INFO: [BIND 205-110] min_op=
+INFO: [BIND 205-110] minreg=
+INFO: [BIND 205-110] ml=
+INFO: [BIND 205-110] model=cnn
+INFO: [BIND 205-110] no_false_path=
+INFO: [BIND 205-110] no_min_op=
+INFO: [BIND 205-110] normalize=
+INFO: [BIND 205-110] quiet=
+INFO: [BIND 205-110] refine=
+INFO: [BIND 205-110] reg_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-110] search=
+INFO: [BIND 205-110] tight_delay=
+INFO: [BIND 205-110] verbose=
+INFO: [BIND 205-110] wFF=
+INFO: [BIND 205-110] wFU=
+INFO: [BIND 205-110] wMUX=
+INFO: [BIND 205-110] wNET=
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command       bind returned 0; 0.42 sec.
+INFO: [HLS 200-111]  Elapsed time: 1.2 seconds; current allocated memory: 219.970 MB.
+Execute       report -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.verbose.bind.rpt -verbose -f 
+Command       report returned 0; 0.98 sec.
+Execute       db_write -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.bind.adb -f 
+Command       db_write returned 0; 0.09 sec.
+INFO: [HLS 200-0] Finish binding cnn.
+Execute       get_model_list cnn -filter all-wo-channel 
+Command       get_model_list returned 0; 0 sec.
+INFO: [HLS 200-0] Preprocessing for RTLGen ...
+Execute       rtl_gen_preprocess Axi_Transfer 
+Command       rtl_gen_preprocess returned 0; 0 sec.
+Execute       rtl_gen_preprocess __hls_fptosi_float_i 
+Command       rtl_gen_preprocess returned 0; 0 sec.
+Execute       rtl_gen_preprocess cnn 
+Command       rtl_gen_preprocess returned 0; 0 sec.
+INFO: [HLS 200-0] Model list for RTL generation: Axi_Transfer __hls_fptosi_float_i cnn
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Axi_Transfer'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model Axi_Transfer -vendor xilinx -mg_file /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Axi_Transfer'.
+Command       create_rtl_model returned 0; 0.01 sec.
+INFO: [HLS 200-111]  Elapsed time: 1.09 seconds; current allocated memory: 220.522 MB.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
+Command       ap_source returned 0; 0.01 sec.
+Execute       gen_rtl Axi_Transfer -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/syn/systemc/Axi_Transfer -synmodules Axi_Transfer __hls_fptosi_float_i cnn 
+Command       gen_rtl returned 0; 0 sec.
+Execute       gen_rtl Axi_Transfer -style xilinx -f -lang vhdl -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/syn/vhdl/Axi_Transfer 
+Command       gen_rtl returned 0; 0 sec.
+Execute       gen_rtl Axi_Transfer -style xilinx -f -lang vlog -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/syn/verilog/Axi_Transfer 
+Command       gen_rtl returned 0; 0 sec.
+Execute       gen_tb_info Axi_Transfer -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer -p /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db 
+Command       gen_tb_info returned 0; 0 sec.
+Execute       report -model Axi_Transfer -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/syn/report/Axi_Transfer_csynth.rpt -f 
+Command       report returned 0; 0 sec.
+Execute       report -model Axi_Transfer -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/syn/report/Axi_Transfer_csynth.xml -f -x 
+Command       report returned 0; 0.01 sec.
+Execute       report -model Axi_Transfer -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.verbose.rpt -verbose -f 
+Command       report returned 0; 0.01 sec.
+Execute       db_write -model Axi_Transfer -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.adb -f 
+Command       db_write returned 0; 0 sec.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'p_hls_fptosi_float_i'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model __hls_fptosi_float_i -vendor xilinx -mg_file /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/p_hls_fptosi_float_i.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'p_hls_fptosi_float_i'.
+Command       create_rtl_model returned 0; 0 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.05 seconds; current allocated memory: 221.103 MB.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       gen_rtl __hls_fptosi_float_i -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/syn/systemc/p_hls_fptosi_float_i -synmodules Axi_Transfer __hls_fptosi_float_i cnn 
+Command       gen_rtl returned 0; 0 sec.
+Execute       gen_rtl __hls_fptosi_float_i -style xilinx -f -lang vhdl -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/syn/vhdl/p_hls_fptosi_float_i 
+Command       gen_rtl returned 0; 0 sec.
+Execute       gen_rtl __hls_fptosi_float_i -style xilinx -f -lang vlog -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/syn/verilog/p_hls_fptosi_float_i 
+Command       gen_rtl returned 0; 0 sec.
+Execute       gen_tb_info __hls_fptosi_float_i -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/p_hls_fptosi_float_i -p /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db 
+Command       gen_tb_info returned 0; 0.01 sec.
+Execute       report -model __hls_fptosi_float_i -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/syn/report/p_hls_fptosi_float_i_csynth.rpt -f 
+Command       report returned 0; 0 sec.
+Execute       report -model __hls_fptosi_float_i -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/syn/report/p_hls_fptosi_float_i_csynth.xml -f -x 
+Command       report returned 0; 0.01 sec.
+Execute       report -model __hls_fptosi_float_i -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/p_hls_fptosi_float_i.verbose.rpt -verbose -f 
+Command       report returned 0; 0.03 sec.
+Execute       db_write -model __hls_fptosi_float_i -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/p_hls_fptosi_float_i.adb -f 
+Command       db_write returned 0; 0.02 sec.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cnn'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model cnn -vendor xilinx -mg_file /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.compgen.tcl 
+INFO: [RTGEN 206-500] Setting interface mode on port 'cnn/in_data_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cnn/in_data_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cnn/in_data_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cnn/in_data_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cnn/in_data_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cnn/in_data_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cnn/in_data_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cnn/out_data_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cnn/out_data_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cnn/out_data_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cnn/out_data_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cnn/out_data_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cnn/out_data_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'cnn/out_data_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'cnn' to 'ap_ctrl_none'.
+INFO: [SYN 201-210] Renamed object name 'cnn_fadd_32ns_32ns_32_5_full_dsp_1' to 'cnn_fadd_32ns_32nbkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'cnn_fmul_32ns_32ns_32_4_max_dsp_1' to 'cnn_fmul_32ns_32ncud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'cnn_fdiv_32ns_32ns_32_16_1' to 'cnn_fdiv_32ns_32ndEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'cnn_sitofp_32ns_32_6_1' to 'cnn_sitofp_32ns_3eOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'cnn_fcmp_32ns_32ns_1_1_1' to 'cnn_fcmp_32ns_32nfYi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'cnn_sdiv_32ns_32s_32_36_seq_1' to 'cnn_sdiv_32ns_32sg8j' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'cnn_mul_64ns_32ns_96_5_1' to 'cnn_mul_64ns_32nshbi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'cnn_sdiv_32s_32s_32_36_seq_1' to 'cnn_sdiv_32s_32s_ibs' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'cnn_fadd_32ns_32nbkb': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'cnn_fcmp_32ns_32nfYi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'cnn_fdiv_32ns_32ndEe': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'cnn_fmul_32ns_32ncud': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'cnn_mul_64ns_32nshbi': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'cnn_sdiv_32ns_32sg8j': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'cnn_sdiv_32s_32s_ibs': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'cnn_sitofp_32ns_3eOg': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cnn'.
+Command       create_rtl_model returned 0; 0.42 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.51 seconds; current allocated memory: 228.335 MB.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       gen_rtl cnn -istop -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/syn/systemc/cnn -synmodules Axi_Transfer __hls_fptosi_float_i cnn 
+Command       gen_rtl returned 0; 0.04 sec.
+Execute       gen_rtl cnn -istop -style xilinx -f -lang vhdl -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/syn/vhdl/cnn 
+Command       gen_rtl returned 0; 0.4 sec.
+Execute       gen_rtl cnn -istop -style xilinx -f -lang vlog -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/syn/verilog/cnn 
+Command       gen_rtl returned 0; 0.22 sec.
+Execute       export_constraint_db -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.constraint.tcl -f -tool general 
+Command       export_constraint_db returned 0; 0 sec.
+Execute       report -model cnn -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.design.xml -verbose -f -dv 
+Command       report returned 0; 0.4 sec.
+Execute       report -model cnn -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.sdaccel.xml -verbose -f -sdaccel 
+Command       report returned 0; 0.62 sec.
+Execute       gen_tb_info cnn -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn -p /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db 
+Command       gen_tb_info returned 0; 0 sec.
+Execute       report -model cnn -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/syn/report/cnn_csynth.rpt -f 
+Command       report returned 0; 0.2 sec.
+Execute       report -model cnn -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/syn/report/cnn_csynth.xml -f -x 
+Command       report returned 0; 0.2 sec.
+Execute       report -model cnn -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.verbose.rpt -verbose -f 
+Command       report returned 0; 1.19 sec.
+Execute       db_write -model cnn -o /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.adb -f 
+Command       db_write returned 0; 0.44 sec.
+Execute       sc_get_clocks cnn 
+Command       sc_get_clocks returned 0; 0 sec.
+Execute       sc_get_portdomain cnn 
+Command       sc_get_portdomain returned 0; 0 sec.
+INFO: [HLS 200-0] Model list for RTL component generation: Axi_Transfer __hls_fptosi_float_i cnn
+INFO: [HLS 200-0] Handling components in module [Axi_Transfer] ... 
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.compgen.tcl 
+Command       ap_source returned 0; 0 sec.
+INFO: [HLS 200-0] Handling components in module [p_hls_fptosi_float_i] ... 
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/p_hls_fptosi_float_i.compgen.tcl 
+Command       ap_source returned 0; 0 sec.
+INFO: [HLS 200-0] Handling components in module [cnn] ... 
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.compgen.tcl 
+INFO: [HLS 200-0] Found component cnn_fadd_32ns_32nbkb.
+INFO: [HLS 200-0] Append model cnn_fadd_32ns_32nbkb
+INFO: [HLS 200-0] Found component cnn_fmul_32ns_32ncud.
+INFO: [HLS 200-0] Append model cnn_fmul_32ns_32ncud
+INFO: [HLS 200-0] Found component cnn_fdiv_32ns_32ndEe.
+INFO: [HLS 200-0] Append model cnn_fdiv_32ns_32ndEe
+INFO: [HLS 200-0] Found component cnn_sitofp_32ns_3eOg.
+INFO: [HLS 200-0] Append model cnn_sitofp_32ns_3eOg
+INFO: [HLS 200-0] Found component cnn_fcmp_32ns_32nfYi.
+INFO: [HLS 200-0] Append model cnn_fcmp_32ns_32nfYi
+INFO: [HLS 200-0] Found component cnn_sdiv_32ns_32sg8j.
+INFO: [HLS 200-0] Append model cnn_sdiv_32ns_32sg8j
+INFO: [HLS 200-0] Found component cnn_mul_64ns_32nshbi.
+INFO: [HLS 200-0] Append model cnn_mul_64ns_32nshbi
+INFO: [HLS 200-0] Found component cnn_sdiv_32s_32s_ibs.
+INFO: [HLS 200-0] Append model cnn_sdiv_32s_32s_ibs
+INFO: [HLS 200-0] Found component cnn_Input.
+INFO: [HLS 200-0] Append model cnn_Input
+INFO: [HLS 200-0] Found component cnn_Bias.
+INFO: [HLS 200-0] Append model cnn_Bias
+INFO: [HLS 200-0] Found component cnn_Parameters.
+INFO: [HLS 200-0] Append model cnn_Parameters
+Command       ap_source returned 0; 0 sec.
+INFO: [HLS 200-0] Append model Axi_Transfer
+INFO: [HLS 200-0] Append model p_hls_fptosi_float_i
+INFO: [HLS 200-0] Append model cnn
+INFO: [HLS 200-0] Generating RTL model list ...
+INFO: [HLS 200-0] All models in this session: cnn_fadd_32ns_32nbkb cnn_fmul_32ns_32ncud cnn_fdiv_32ns_32ndEe cnn_sitofp_32ns_3eOg cnn_fcmp_32ns_32nfYi cnn_sdiv_32ns_32sg8j cnn_mul_64ns_32nshbi cnn_sdiv_32s_32s_ibs cnn_Input cnn_Bias cnn_Parameters Axi_Transfer p_hls_fptosi_float_i cnn
+INFO: [HLS 200-0] To file: write model cnn_fadd_32ns_32nbkb
+INFO: [HLS 200-0] To file: write model cnn_fmul_32ns_32ncud
+INFO: [HLS 200-0] To file: write model cnn_fdiv_32ns_32ndEe
+INFO: [HLS 200-0] To file: write model cnn_sitofp_32ns_3eOg
+INFO: [HLS 200-0] To file: write model cnn_fcmp_32ns_32nfYi
+INFO: [HLS 200-0] To file: write model cnn_sdiv_32ns_32sg8j
+INFO: [HLS 200-0] To file: write model cnn_mul_64ns_32nshbi
+INFO: [HLS 200-0] To file: write model cnn_sdiv_32s_32s_ibs
+INFO: [HLS 200-0] To file: write model cnn_Input
+INFO: [HLS 200-0] To file: write model cnn_Bias
+INFO: [HLS 200-0] To file: write model cnn_Parameters
+INFO: [HLS 200-0] To file: write model Axi_Transfer
+INFO: [HLS 200-0] To file: write model p_hls_fptosi_float_i
+INFO: [HLS 200-0] To file: write model cnn
+INFO: [HLS 200-0] Finished generating RTL model list.
+
+
+INFO: [HLS 200-0] RTL Generation done.
+INFO: [HLS 200-0] CAS Generation done.
+INFO: [HLS 200-0] CBC Generation done.
+Execute       export_ssdm /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/a.export.ll 
+Command       export_ssdm returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
+Command         ap_source returned 0; 0 sec.
+Command       ap_source returned 0; 0 sec.
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
+Command       ap_source returned 0; 0 sec.
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
+Command       ap_source returned 0; 0.01 sec.
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
 Command             ap_source returned 0; 0 sec.
-Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
+Command             ap_source returned 0; 0 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
+Command             ap_source returned 0; 0 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute               source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
+Command               ap_source returned 0; 0 sec.
+Execute               source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
+Command               ap_source returned 0; 0.01 sec.
+Command             ap_source returned 0; 0.02 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Command             ap_source returned 0; 0.02 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Command             ap_source returned 0; 0 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
+Command             ap_source returned 0; 0 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
+Command             ap_source returned 0; 0 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
+Command             ap_source returned 0; 0.12 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
 Command             ap_source returned 0; 0.01 sec.
-Command           ap_source returned 0; 0.02 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Command           ap_source returned 0; 0.02 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
-Command           ap_source returned 0; 0.13 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
+Command           ap_source returned 0; 0.18 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
 Command           ap_source returned 0; 0 sec.
 Command         ap_source returned 0; 0.18 sec.
-Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
-Command         ap_source returned 0; 0.01 sec.
-Command       ap_source returned 0; 0.2 sec.
-Command     ap_source returned 0; 0.2 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
-Command       ap_source returned 0; 0 sec.
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
-Command       ap_source returned 0; 0 sec.
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
-Command     ap_source returned 0; 0.01 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
-Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
-Command             ap_source returned 0; 0.01 sec.
-Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
-Command             ap_source returned 0; 0.01 sec.
-Command           ap_source returned 0; 0.02 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
-Command           ap_source returned 0; 0.12 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
-Command           ap_source returned 0; 0 sec.
-Command         ap_source returned 0; 0.17 sec.
-Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
-Command         ap_source returned 0; 0.01 sec.
 Command       ap_source returned 0; 0.18 sec.
-Command     ap_source returned 0; 0.18 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
-Command       ap_source returned 0; 0 sec.
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.compgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/p_hls_fptosi_float_i.compgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.compgen.tcl 
-Command     ap_source returned 0; 0.12 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.compgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/p_hls_fptosi_float_i.compgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.compgen.tcl 
-Command     ap_source returned 0; 0.01 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.compgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/p_hls_fptosi_float_i.compgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.compgen.tcl 
-Command     ap_source returned 0; 0.01 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.constraint.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
-Command     ap_source returned 0; 0.01 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
-Command     ap_source returned 0; 0.01 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.constraint.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.constraint.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.constraint.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
-Command       ap_source returned 0; 0 sec.
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
-Command     ap_source returned 0; 0.01 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
-Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
-Command             ap_source returned 0; 0.01 sec.
-Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
-Command             ap_source returned 0; 0.01 sec.
-Command           ap_source returned 0; 0.02 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Command           ap_source returned 0; 0.02 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
-Command           ap_source returned 0; 0.13 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
-Command           ap_source returned 0; 0 sec.
-Command         ap_source returned 0; 0.18 sec.
-Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
 Command         ap_source returned 0; 0 sec.
-Command       ap_source returned 0; 0.18 sec.
-Command     ap_source returned 0; 0.18 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
 Command       ap_source returned 0; 0 sec.
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
 Command       ap_source returned 0; 0 sec.
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
-Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
-Command             ap_source returned 0; 0.01 sec.
-Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
-Command             ap_source returned 0; 0.01 sec.
-Command           ap_source returned 0; 0.02 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
-Command           ap_source returned 0; 0.12 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
-Command           ap_source returned 0; 0 sec.
-Command         ap_source returned 0; 0.17 sec.
-Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.compgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/p_hls_fptosi_float_i.compgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.compgen.tcl 
+INFO: [RTMG 210-282] Generating pipelined core: 'cnn_sdiv_32ns_32sg8j_div'
+INFO: [RTMG 210-282] Generating pipelined core: 'cnn_mul_64ns_32nshbi_MulnS_0'
+INFO: [RTMG 210-282] Generating pipelined core: 'cnn_sdiv_32s_32s_ibs_div'
+INFO: [RTMG 210-278] Implementing memory 'cnn_Input_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'cnn_Bias_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'cnn_Parameters_ram (RAM)' using distributed RAMs.
+Command       ap_source returned 0; 0.31 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
 Command         ap_source returned 0; 0 sec.
-Command       ap_source returned 0; 0.18 sec.
-Command     ap_source returned 0; 0.18 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
 Command       ap_source returned 0; 0 sec.
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
 Command       ap_source returned 0; 0 sec.
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
-Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
-Command             ap_source returned 0; 0.01 sec.
-Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
-Command             ap_source returned 0; 0.01 sec.
-Command           ap_source returned 0; 0.02 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
-Command           ap_source returned 0; 0.13 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
-Command           ap_source returned 0; 0 sec.
-Command         ap_source returned 0; 0.17 sec.
-Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
-Command         ap_source returned 0; 0 sec.
-Command       ap_source returned 0; 0.18 sec.
-Command     ap_source returned 0; 0.18 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
-Command       ap_source returned 0; 0.01 sec.
-Command     ap_source returned 0; 0.01 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.compgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/p_hls_fptosi_float_i.compgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.compgen.tcl 
-Command     ap_source returned 0; 0.13 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.constraint.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
 Command       ap_source returned 0; 0 sec.
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
-Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
-Command             ap_source returned 0; 0.01 sec.
-Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
 Command             ap_source returned 0; 0 sec.
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Command           ap_source returned 0; 0.02 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
-Command           ap_source returned 0; 0.13 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
-Command           ap_source returned 0; 0 sec.
-Command         ap_source returned 0; 0.18 sec.
-Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
-Command         ap_source returned 0; 0 sec.
-Command       ap_source returned 0; 0.18 sec.
-Command     ap_source returned 0; 0.18 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
-Command       ap_source returned 0; 0.01 sec.
-Command     ap_source returned 0; 0.01 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
-Command       ap_source returned 0; 0.01 sec.
-Command     ap_source returned 0; 0.01 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
-Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
-Command             ap_source returned 0; 0.01 sec.
-Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
 Command             ap_source returned 0; 0 sec.
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Command           ap_source returned 0; 0.02 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
-Command           ap_source returned 0; 0.12 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
-Command           ap_source returned 0; 0 sec.
-Command         ap_source returned 0; 0.18 sec.
-Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
-Command         ap_source returned 0; 0 sec.
-Command       ap_source returned 0; 0.18 sec.
-Command     ap_source returned 0; 0.18 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
-Command       ap_source returned 0; 0.01 sec.
-Command     ap_source returned 0; 0.01 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
-Command       ap_source returned 0; 0 sec.
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
-Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
-Command             ap_source returned 0; 0.01 sec.
-Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
 Command             ap_source returned 0; 0 sec.
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Command           ap_source returned 0; 0.02 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
-Command           ap_source returned 0; 0.12 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute               source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
+Command               ap_source returned 0; 0.01 sec.
+Execute               source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
+Command               ap_source returned 0; 0.01 sec.
+Command             ap_source returned 0; 0.02 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Command             ap_source returned 0; 0.01 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Command             ap_source returned 0; 0.01 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
+Command             ap_source returned 0; 0.01 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
+Command             ap_source returned 0; 0 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
+Command             ap_source returned 0; 0.12 sec.
+Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
+Command             ap_source returned 0; 0 sec.
+Command           ap_source returned 0; 0.17 sec.
+Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
 Command           ap_source returned 0; 0.01 sec.
 Command         ap_source returned 0; 0.19 sec.
-Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
-Command         ap_source returned 0; 0 sec.
 Command       ap_source returned 0; 0.19 sec.
-Command     ap_source returned 0; 0.19 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
-Command       ap_source returned 0; 0 sec.
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.compgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/p_hls_fptosi_float_i.compgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.compgen.tcl 
-Command     ap_source returned 0; 0.14 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.constraint.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/common.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/APCoreGen.gen 
-Command       ap_source returned 0; 0 sec.
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/op_simcore.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/generic/autopilot/interface.gen 
-Command     ap_source returned 0; 0 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/virtex.gen 
-Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx.gen 
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
-Command             ap_source returned 0; 0.01 sec.
-Execute             source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
-Command             ap_source returned 0; 0.01 sec.
-Command           ap_source returned 0; 0.02 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Command           ap_source returned 0; 0.01 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
-Command           ap_source returned 0; 0 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
-Command           ap_source returned 0; 0.13 sec.
-Execute           source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
-Command           ap_source returned 0; 0 sec.
-Command         ap_source returned 0; 0.17 sec.
-Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
+Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute         source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
 Command         ap_source returned 0; 0 sec.
-Command       ap_source returned 0; 0.18 sec.
-Command     ap_source returned 0; 0.18 sec.
-Execute     source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/zynq/zynq_fpv6.gen 
-Execute       source /media/common/DATAPART1/vivado/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
 Command       ap_source returned 0; 0 sec.
-Command     ap_source returned 0; 0.01 sec.
-Execute     source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
-Command   export_design returned 0; 131.02 sec.
-Command ap_source returned 0; 131.57 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.rtl_wrap.cfg.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.compgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/p_hls_fptosi_float_i.compgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.compgen.tcl 
+Command       ap_source returned 0; 0.13 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.compgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/p_hls_fptosi_float_i.compgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.compgen.tcl 
+Command       ap_source returned 0; 0.02 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/Axi_Transfer.compgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/p_hls_fptosi_float_i.compgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.compgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.constraint.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.tbgen.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/cnn.constraint.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       sc_get_clocks cnn 
+Command       sc_get_clocks returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/.autopilot/db/global.setting.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/impl/misc/cnn_ap_fadd_3_full_dsp_32_ip.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/impl/misc/cnn_ap_fcmp_0_no_dsp_32_ip.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/impl/misc/cnn_ap_fdiv_14_no_dsp_32_ip.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/impl/misc/cnn_ap_fmul_2_max_dsp_32_ip.tcl 
+Command       ap_source returned 0; 0 sec.
+Execute       source /home/common/FPGA/CONV/CNNIOT/deeplib/deeplib/solution1/impl/misc/cnn_ap_sitofp_4_no_dsp_32_ip.tcl 
+Command       ap_source returned 0; 0 sec.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:54 ; elapsed = 00:00:41 . Memory (MB): peak = 618.250 ; gain = 271.672 ; free physical = 35453 ; free virtual = 116827
+INFO: [SYSC 207-301] Generating SystemC RTL for cnn.
+INFO: [VHDL 208-304] Generating VHDL RTL for cnn.
+INFO: [VLOG 209-307] Generating Verilog RTL for cnn.
+Command     autosyn returned 0; 9.03 sec.
+Command   csynth_design returned 0; 39.96 sec.
+Command ap_source returned 0; 40.36 sec.
 Execute cleanup_all 
-Command cleanup_all returned 0; 0 sec.
+Command cleanup_all returned 0; 0.03 sec.

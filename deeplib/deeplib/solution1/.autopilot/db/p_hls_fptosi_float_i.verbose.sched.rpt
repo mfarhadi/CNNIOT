@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'p_hls_fptosi_float_i'
 ================================================================
-* Date:           Fri May 18 12:31:12 2018
+* Date:           Sat May 19 16:18:58 2018
 
 * Version:        2017.4 (Build 2086221 on Fri Dec 15 21:13:33 MST 2017)
 * Project:        deeplib
@@ -118,7 +118,7 @@ Target clock period: 10ns, clock uncertainty: 1.25ns.
  <State 1>: 7.71ns
 The critical path consists of the following:
 	wire read on port 'x' [2]  (0 ns)
-	'sub' operation ('tmp_5_i_i', /wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49) [12]  (1.92 ns)
+	'add' operation ('sh', /wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:340->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49) [10]  (1.92 ns)
 	'select' operation ('sh', /wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49) [14]  (1.37 ns)
 	'lshr' operation ('tmp_8_i_i', /wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49) [18]  (0 ns)
 	'select' operation ('__Val2__', /wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368->/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49) [23]  (4.42 ns)

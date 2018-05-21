@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'cnn'" level="0">
-<item name = "Date">Fri May 18 12:31:17 2018
+<item name = "Date">Sat May 19 16:19:03 2018
 </item>
 <item name = "Version">2017.4 (Build 2086221 on Fri Dec 15 21:13:33 MST 2017)</item>
 <item name = "Project">deeplib</item>
@@ -707,8 +707,8 @@
 <item name = "Max Delay">10.02</item>
 <item name = "Critical Path Table"><table name="Critical Path Table" hasTotal="0">
 <keys size="15">Name, Operator, Delay, Accumulated Delay, Store Source, Resource, Core, Interface, Type, Port, Array, Scope, Pointer, Callee, Phi Node</keys>
-<column name="'tmp_4', deeplib/main.cpp:79">call, 3.60, 3.60, -, -, -, -, -, -, -, -, -, Axi_Transfer, -</column>
-<column name="'Temproray', deeplib/main.cpp:79">sitofp, 6.41, 10.02, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'tmp_4', deeplib/main.cpp:81">call, 3.60, 3.60, -, -, -, -, -, -, -, -, -, Axi_Transfer, -</column>
+<column name="'Temproray', deeplib/main.cpp:81">sitofp, 6.41, 10.02, -, -, -, -, -, -, -, -, -, -, -</column>
 </table>
 </item>
 </section>

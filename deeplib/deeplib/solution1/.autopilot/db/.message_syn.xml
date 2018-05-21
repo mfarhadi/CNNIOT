@@ -2,28 +2,28 @@
 <Messages>
 	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1312" content="Analyzing design file &apos;deeplib/main.cpp&apos; ..." tag=""/>
 	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1465" content="Validating synthesis directives ..." tag=""/>
-	<Message prefix="[HLS 200-111]" severity="INFO" keynum="473" content="Finished Checking Pragmas Time (s): cpu = 00:00:36 ; elapsed = 00:00:20 . Memory (MB): peak = 359.957 ; gain = 13.375 ; free physical = 30962 ; free virtual = 111893" tag=""/>
-	<Message prefix="[HLS 200-111]" severity="INFO" keynum="473" content="Finished Linking Time (s): cpu = 00:00:38 ; elapsed = 00:00:23 . Memory (MB): peak = 359.957 ; gain = 13.375 ; free physical = 30967 ; free virtual = 111900" tag=""/>
+	<Message prefix="[HLS 200-111]" severity="INFO" keynum="473" content="Finished Checking Pragmas Time (s): cpu = 00:00:35 ; elapsed = 00:00:20 . Memory (MB): peak = 359.953 ; gain = 13.375 ; free physical = 35809 ; free virtual = 117089" tag=""/>
+	<Message prefix="[HLS 200-111]" severity="INFO" keynum="473" content="Finished Linking Time (s): cpu = 00:00:38 ; elapsed = 00:00:23 . Memory (MB): peak = 359.953 ; gain = 13.375 ; free physical = 35783 ; free virtual = 117072" tag=""/>
 	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1467" content="Starting code transformations ..." tag=""/>
 	<Message prefix="[XFORM 203-603]" severity="INFO" keynum="792" content="Inlining function &apos;ap_fixed_base&lt;79, 55, false, (ap_q_mode)5, (ap_o_mode)3, 0&gt;::operator&lt;&lt;&apos; into &apos;generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;&apos; (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286)." tag=""/>
 	<Message prefix="[XFORM 203-603]" severity="INFO" keynum="792" content="Inlining function &apos;ap_fixed_base&lt;1, 32, false, (ap_q_mode)5, (ap_o_mode)0, 0&gt;::overflow_adjust&apos; into &apos;ap_fixed_base&lt;1, 32, false, (ap_q_mode)5, (ap_o_mode)0, 0&gt;::ap_fixed_base&lt;79, 55, false, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&apos; ()." tag=""/>
-	<Message prefix="[HLS 200-111]" severity="INFO" keynum="473" content="Finished Standard Transforms Time (s): cpu = 00:00:42 ; elapsed = 00:00:27 . Memory (MB): peak = 490.941 ; gain = 144.359 ; free physical = 30910 ; free virtual = 111857" tag=""/>
+	<Message prefix="[HLS 200-111]" severity="INFO" keynum="473" content="Finished Standard Transforms Time (s): cpu = 00:00:41 ; elapsed = 00:00:27 . Memory (MB): peak = 490.938 ; gain = 144.359 ; free physical = 35645 ; free virtual = 116979" tag=""/>
 	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1472" content="Checking synthesizability ..." tag=""/>
 	<Message prefix="[XFORM 203-602]" severity="INFO" keynum="794" content="Inlining function &apos;fp_struct&lt;float&gt;::mantissa&apos; into &apos;generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;&apos; (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:283) automatically." tag=""/>
 	<Message prefix="[XFORM 203-602]" severity="INFO" keynum="794" content="Inlining function &apos;fp_struct&lt;float&gt;::expv&apos; into &apos;generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;&apos; (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:286) automatically." tag=""/>
 	<Message prefix="[XFORM 203-602]" severity="INFO" keynum="794" content="Inlining function &apos;fp_struct&lt;float&gt;::__signbit&apos; into &apos;generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;&apos; (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:318) automatically." tag=""/>
 	<Message prefix="[XFORM 203-602]" severity="INFO" keynum="794" content="Inlining function &apos;generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;&apos; into &apos;generic_cast_IEEE754&lt;int, float&gt;&apos; (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368) automatically." tag=""/>
 	<Message prefix="[XFORM 203-602]" severity="INFO" keynum="794" content="Inlining function &apos;generic_cast_IEEE754&lt;int, float&gt;&apos; into &apos;__hls_fptosi_float_i32&apos; (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49) automatically." tag=""/>
-	<Message prefix="[HLS 200-111]" severity="INFO" keynum="473" content="Finished Checking Synthesizability Time (s): cpu = 00:00:43 ; elapsed = 00:00:27 . Memory (MB): peak = 551.953 ; gain = 205.371 ; free physical = 30872 ; free virtual = 111824" tag=""/>
+	<Message prefix="[HLS 200-111]" severity="INFO" keynum="473" content="Finished Checking Synthesizability Time (s): cpu = 00:00:42 ; elapsed = 00:00:28 . Memory (MB): peak = 551.949 ; gain = 205.371 ; free physical = 35589 ; free virtual = 116934" tag=""/>
 	<Message prefix="[XFORM 203-1103]" severity="WARNING" keynum="910" content="Ignored data pack directive on non-struct variable &apos;out_data.data.V&apos; (deeplib/main.cpp:32)." tag=""/>
 	<Message prefix="[XFORM 203-1103]" severity="WARNING" keynum="910" content="Ignored data pack directive on non-struct variable &apos;in_data.data.V&apos; (deeplib/main.cpp:32)." tag=""/>
-	<Message prefix="[XFORM 203-502]" severity="INFO" keynum="813" content="Unrolling all sub-loops inside loop &apos;Loop-1.5.1.1&apos; (deeplib/main.cpp:123) in function &apos;cnn&apos; for pipelining." tag=""/>
-	<Message prefix="[XFORM 203-502]" severity="INFO" keynum="813" content="Unrolling all sub-loops inside loop &apos;Loop-1.7.1.1&apos; (deeplib/main.cpp:207) in function &apos;cnn&apos; for pipelining." tag=""/>
-	<Message prefix="[XFORM 203-503]" severity="WARNING" keynum="887" content="Cannot unroll loop &apos;Loop-1.5.1.1.1&apos; (deeplib/main.cpp:128) in function &apos;cnn&apos;: cannot completely unroll a loop with a variable trip count." tag=""/>
-	<Message prefix="[XFORM 203-503]" severity="WARNING" keynum="887" content="Cannot unroll loop &apos;Loop-1.5.1.1.1.1&apos; (deeplib/main.cpp:131) in function &apos;cnn&apos;: cannot completely unroll a loop with a variable trip count." tag=""/>
-	<Message prefix="[XFORM 203-503]" severity="WARNING" keynum="887" content="Cannot unroll loop &apos;Loop-1.5.1.1.1.1.1&apos; (deeplib/main.cpp:134) in function &apos;cnn&apos;: cannot completely unroll a loop with a variable trip count." tag=""/>
-	<Message prefix="[XFORM 203-503]" severity="WARNING" keynum="887" content="Cannot unroll loop &apos;Loop-1.7.1.1.1&apos; (deeplib/main.cpp:211) in function &apos;cnn&apos;: cannot completely unroll a loop with a variable trip count." tag=""/>
-	<Message prefix="[XFORM 203-503]" severity="WARNING" keynum="887" content="Cannot unroll loop &apos;Loop-1.7.1.1.1.1&apos; (deeplib/main.cpp:213) in function &apos;cnn&apos;: cannot completely unroll a loop with a variable trip count." tag=""/>
+	<Message prefix="[XFORM 203-502]" severity="INFO" keynum="813" content="Unrolling all sub-loops inside loop &apos;Loop-1.5.1.1&apos; (deeplib/main.cpp:125) in function &apos;cnn&apos; for pipelining." tag=""/>
+	<Message prefix="[XFORM 203-502]" severity="INFO" keynum="813" content="Unrolling all sub-loops inside loop &apos;Loop-1.7.1.1&apos; (deeplib/main.cpp:209) in function &apos;cnn&apos; for pipelining." tag=""/>
+	<Message prefix="[XFORM 203-503]" severity="WARNING" keynum="887" content="Cannot unroll loop &apos;Loop-1.5.1.1.1&apos; (deeplib/main.cpp:130) in function &apos;cnn&apos;: cannot completely unroll a loop with a variable trip count." tag=""/>
+	<Message prefix="[XFORM 203-503]" severity="WARNING" keynum="887" content="Cannot unroll loop &apos;Loop-1.5.1.1.1.1&apos; (deeplib/main.cpp:133) in function &apos;cnn&apos;: cannot completely unroll a loop with a variable trip count." tag=""/>
+	<Message prefix="[XFORM 203-503]" severity="WARNING" keynum="887" content="Cannot unroll loop &apos;Loop-1.5.1.1.1.1.1&apos; (deeplib/main.cpp:136) in function &apos;cnn&apos;: cannot completely unroll a loop with a variable trip count." tag=""/>
+	<Message prefix="[XFORM 203-503]" severity="WARNING" keynum="887" content="Cannot unroll loop &apos;Loop-1.7.1.1.1&apos; (deeplib/main.cpp:213) in function &apos;cnn&apos;: cannot completely unroll a loop with a variable trip count." tag=""/>
+	<Message prefix="[XFORM 203-503]" severity="WARNING" keynum="887" content="Cannot unroll loop &apos;Loop-1.7.1.1.1.1&apos; (deeplib/main.cpp:215) in function &apos;cnn&apos;: cannot completely unroll a loop with a variable trip count." tag=""/>
 	<Message prefix="[XFORM 203-102]" severity="INFO" keynum="696" content="Partitioning array &apos;Filter_size&apos; (deeplib/main.cpp:42) automatically." tag=""/>
 	<Message prefix="[XFORM 203-102]" severity="INFO" keynum="696" content="Partitioning array &apos;Input_Size&apos; (deeplib/main.cpp:42) automatically." tag=""/>
 	<Message prefix="[XFORM 203-602]" severity="INFO" keynum="794" content="Inlining function &apos;fp_struct&lt;float&gt;::mantissa&apos; into &apos;generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;&apos; (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:283) automatically." tag=""/>
@@ -31,32 +31,32 @@
 	<Message prefix="[XFORM 203-602]" severity="INFO" keynum="794" content="Inlining function &apos;fp_struct&lt;float&gt;::__signbit&apos; into &apos;generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;&apos; (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:318) automatically." tag=""/>
 	<Message prefix="[XFORM 203-602]" severity="INFO" keynum="794" content="Inlining function &apos;generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;&apos; into &apos;generic_cast_IEEE754&lt;int, float&gt;&apos; (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_round.h:368) automatically." tag=""/>
 	<Message prefix="[XFORM 203-602]" severity="INFO" keynum="794" content="Inlining function &apos;generic_cast_IEEE754&lt;int, float&gt;&apos; into &apos;__hls_fptosi_float_i32&apos; (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49) automatically." tag=""/>
-	<Message prefix="[XFORM 203-401]" severity="INFO" keynum="809" content="Performing if-conversion on hyperblock from (deeplib/main.cpp:143:15) to (deeplib/main.cpp:123:44) in function &apos;cnn&apos;... converting 5 basic blocks." tag=""/>
-	<Message prefix="[XFORM 203-401]" severity="INFO" keynum="809" content="Performing if-conversion on hyperblock from (deeplib/main.cpp:216:8) to (deeplib/main.cpp:213:37) in function &apos;cnn&apos;... converting 7 basic blocks." tag=""/>
-	<Message prefix="[XFORM 203-401]" severity="INFO" keynum="809" content="Performing if-conversion on hyperblock from (deeplib/main.cpp:243:15) to (deeplib/main.cpp:207:44) in function &apos;cnn&apos;... converting 3 basic blocks." tag=""/>
-	<Message prefix="[XFORM 203-401]" severity="INFO" keynum="809" content="Performing if-conversion on hyperblock from (deeplib/main.cpp:297:5) to (deeplib/main.cpp:288:41) in function &apos;cnn&apos;... converting 5 basic blocks." tag=""/>
+	<Message prefix="[XFORM 203-401]" severity="INFO" keynum="809" content="Performing if-conversion on hyperblock from (deeplib/main.cpp:145:15) to (deeplib/main.cpp:125:44) in function &apos;cnn&apos;... converting 5 basic blocks." tag=""/>
+	<Message prefix="[XFORM 203-401]" severity="INFO" keynum="809" content="Performing if-conversion on hyperblock from (deeplib/main.cpp:218:8) to (deeplib/main.cpp:215:37) in function &apos;cnn&apos;... converting 7 basic blocks." tag=""/>
+	<Message prefix="[XFORM 203-401]" severity="INFO" keynum="809" content="Performing if-conversion on hyperblock from (deeplib/main.cpp:245:15) to (deeplib/main.cpp:209:44) in function &apos;cnn&apos;... converting 3 basic blocks." tag=""/>
+	<Message prefix="[XFORM 203-401]" severity="INFO" keynum="809" content="Performing if-conversion on hyperblock from (deeplib/main.cpp:299:5) to (deeplib/main.cpp:290:41) in function &apos;cnn&apos;... converting 5 basic blocks." tag=""/>
 	<Message prefix="[XFORM 203-11]" severity="INFO" keynum="754" content="Balancing expressions in function &apos;cnn&apos; (deeplib/main.cpp:32)...6 expression(s) balanced." tag=""/>
-	<Message prefix="[HLS 200-111]" severity="INFO" keynum="473" content="Finished Pre-synthesis Time (s): cpu = 00:00:45 ; elapsed = 00:00:30 . Memory (MB): peak = 554.383 ; gain = 207.801 ; free physical = 30784 ; free virtual = 111759" tag=""/>
-	<Message prefix="[XFORM 203-603]" severity="INFO" keynum="805" content="Evaluating the output(s) of a call to function &apos;__hls_fptosi_float_i32&apos; (deeplib/main.cpp:48:20) in function &apos;cnn&apos; and propagating its result(s) since all actual argument(s) to the function are constants." tag=""/>
-	<Message prefix="[XFORM 203-603]" severity="INFO" keynum="805" content="Evaluating the output(s) of a call to function &apos;__hls_fptosi_float_i32&apos; (deeplib/main.cpp:91:16) in function &apos;cnn&apos; and propagating its result(s) since all actual argument(s) to the function are constants." tag=""/>
-	<Message prefix="[XFORM 203-603]" severity="INFO" keynum="805" content="Evaluating the output(s) of a call to function &apos;__hls_fptosi_float_i32&apos; (deeplib/main.cpp:100:15) in function &apos;cnn&apos; and propagating its result(s) since all actual argument(s) to the function are constants." tag=""/>
-	<Message prefix="[XFORM 203-603]" severity="INFO" keynum="805" content="Evaluating the output(s) of a call to function &apos;__hls_fptosi_float_i32&apos; (deeplib/main.cpp:283:17) in function &apos;cnn&apos; and propagating its result(s) since all actual argument(s) to the function are constants." tag=""/>
-	<Message prefix="[XFORM 203-542]" severity="WARNING" keynum="790" content="Cannot flatten a loop nest &apos;Loop-1.5.1.1&apos; (deeplib/main.cpp:123:28) in function &apos;cnn&apos; : 
+	<Message prefix="[HLS 200-111]" severity="INFO" keynum="473" content="Finished Pre-synthesis Time (s): cpu = 00:00:45 ; elapsed = 00:00:30 . Memory (MB): peak = 554.379 ; gain = 207.801 ; free physical = 35496 ; free virtual = 116843" tag=""/>
+	<Message prefix="[XFORM 203-603]" severity="INFO" keynum="805" content="Evaluating the output(s) of a call to function &apos;__hls_fptosi_float_i32&apos; (deeplib/main.cpp:49:20) in function &apos;cnn&apos; and propagating its result(s) since all actual argument(s) to the function are constants." tag=""/>
+	<Message prefix="[XFORM 203-603]" severity="INFO" keynum="805" content="Evaluating the output(s) of a call to function &apos;__hls_fptosi_float_i32&apos; (deeplib/main.cpp:93:16) in function &apos;cnn&apos; and propagating its result(s) since all actual argument(s) to the function are constants." tag=""/>
+	<Message prefix="[XFORM 203-603]" severity="INFO" keynum="805" content="Evaluating the output(s) of a call to function &apos;__hls_fptosi_float_i32&apos; (deeplib/main.cpp:102:15) in function &apos;cnn&apos; and propagating its result(s) since all actual argument(s) to the function are constants." tag=""/>
+	<Message prefix="[XFORM 203-603]" severity="INFO" keynum="805" content="Evaluating the output(s) of a call to function &apos;__hls_fptosi_float_i32&apos; (deeplib/main.cpp:285:17) in function &apos;cnn&apos; and propagating its result(s) since all actual argument(s) to the function are constants." tag=""/>
+	<Message prefix="[XFORM 203-542]" severity="WARNING" keynum="790" content="Cannot flatten a loop nest &apos;Loop-1.5.1.1&apos; (deeplib/main.cpp:125:28) in function &apos;cnn&apos; : 
 
 the outer loop is not a perfect loop because there is nontrivial logic in the loop latch." tag=""/>
-	<Message prefix="[XFORM 203-541]" severity="INFO" keynum="789" content="Flattening a loop nest &apos;Loop-1.5.1&apos; (deeplib/main.cpp:121:24) in function &apos;cnn&apos;." tag=""/>
-	<Message prefix="[XFORM 203-541]" severity="INFO" keynum="789" content="Flattening a loop nest &apos;Loop-1.5&apos; (deeplib/main.cpp:119:20) in function &apos;cnn&apos;." tag=""/>
-	<Message prefix="[XFORM 203-542]" severity="WARNING" keynum="790" content="Cannot flatten a loop nest &apos;Loop-1.7.1.1&apos; (deeplib/main.cpp:207:28) in function &apos;cnn&apos; : 
+	<Message prefix="[XFORM 203-541]" severity="INFO" keynum="789" content="Flattening a loop nest &apos;Loop-1.5.1&apos; (deeplib/main.cpp:123:24) in function &apos;cnn&apos;." tag=""/>
+	<Message prefix="[XFORM 203-541]" severity="INFO" keynum="789" content="Flattening a loop nest &apos;Loop-1.5&apos; (deeplib/main.cpp:121:20) in function &apos;cnn&apos;." tag=""/>
+	<Message prefix="[XFORM 203-542]" severity="WARNING" keynum="790" content="Cannot flatten a loop nest &apos;Loop-1.7.1.1&apos; (deeplib/main.cpp:209:28) in function &apos;cnn&apos; : 
 
 the outer loop is not a perfect loop because there is nontrivial logic before entering the inner loop." tag=""/>
-	<Message prefix="[XFORM 203-541]" severity="INFO" keynum="789" content="Flattening a loop nest &apos;Loop-1.7.1&apos; (deeplib/main.cpp:205:24) in function &apos;cnn&apos;." tag=""/>
-	<Message prefix="[XFORM 203-541]" severity="INFO" keynum="789" content="Flattening a loop nest &apos;Loop-1.7&apos; (deeplib/main.cpp:203:20) in function &apos;cnn&apos;." tag=""/>
-	<Message prefix="[XFORM 203-561]" severity="WARNING" keynum="788" content="&apos;Loop-1&apos; (deeplib/main.cpp:45:15) in function &apos;cnn&apos; is an infinite loop." tag=""/>
-	<Message prefix="[XFORM 203-542]" severity="WARNING" keynum="790" content="Cannot flatten a loop nest &apos;Loop-1&apos; (deeplib/main.cpp:45:15) in function &apos;cnn&apos; : 
+	<Message prefix="[XFORM 203-541]" severity="INFO" keynum="789" content="Flattening a loop nest &apos;Loop-1.7.1&apos; (deeplib/main.cpp:207:24) in function &apos;cnn&apos;." tag=""/>
+	<Message prefix="[XFORM 203-541]" severity="INFO" keynum="789" content="Flattening a loop nest &apos;Loop-1.7&apos; (deeplib/main.cpp:205:20) in function &apos;cnn&apos;." tag=""/>
+	<Message prefix="[XFORM 203-561]" severity="WARNING" keynum="788" content="&apos;Loop-1&apos; (deeplib/main.cpp:46:15) in function &apos;cnn&apos; is an infinite loop." tag=""/>
+	<Message prefix="[XFORM 203-542]" severity="WARNING" keynum="790" content="Cannot flatten a loop nest &apos;Loop-1&apos; (deeplib/main.cpp:46:15) in function &apos;cnn&apos; : 
 
 more than one sub loop." tag=""/>
 	<Message prefix="[XFORM 203-631]" severity="WARNING" keynum="902" content="Renaming function &apos;__hls_fptosi_float_i32&apos; to &apos;__hls_fptosi_float_i&apos; (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:49:54)" tag=""/>
-	<Message prefix="[HLS 200-111]" severity="INFO" keynum="473" content="Finished Architecture Synthesis Time (s): cpu = 00:00:47 ; elapsed = 00:00:32 . Memory (MB): peak = 618.254 ; gain = 271.672 ; free physical = 30756 ; free virtual = 111734" tag=""/>
+	<Message prefix="[HLS 200-111]" severity="INFO" keynum="473" content="Finished Architecture Synthesis Time (s): cpu = 00:00:46 ; elapsed = 00:00:32 . Memory (MB): peak = 618.250 ; gain = 271.672 ; free physical = 35478 ; free virtual = 116834" tag=""/>
 	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1317" content="Starting hardware synthesis ..." tag=""/>
 	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1385" content="Synthesizing &apos;cnn&apos; ..." tag=""/>
 	<Message prefix="[SYN 201-103]" severity="WARNING" keynum="534" content="Legalizing function name &apos;__hls_fptosi_float_i&apos; to &apos;p_hls_fptosi_float_i&apos;." tag=""/>
@@ -67,13 +67,13 @@ more than one sub loop." tag=""/>
 	<Message prefix="[SCHED 204-61]" severity="INFO" keynum="112" content="Pipelining function &apos;Axi_Transfer&apos;." tag=""/>
 	<Message prefix="[SCHED 204-61]" severity="INFO" keynum="110" content="Pipelining result : Target II = 1, Final II = 1, Depth = 1." tag=""/>
 	<Message prefix="[SCHED 204-11]" severity="INFO" keynum="138" content="Finished scheduling." tag=""/>
-	<Message prefix="[HLS 200-111]" severity="INFO" keynum="474" content=" Elapsed time: 32 seconds; current allocated memory: 212.202 MB." tag=""/>
+	<Message prefix="[HLS 200-111]" severity="INFO" keynum="474" content=" Elapsed time: 32.18 seconds; current allocated memory: 212.216 MB." tag=""/>
 	<Message prefix="[BIND 205-100]" severity="INFO" keynum="439" content="Starting micro-architecture generation ..." tag=""/>
 	<Message prefix="[BIND 205-101]" severity="INFO" keynum="211" content="Performing variable lifetime analysis." tag=""/>
 	<Message prefix="[BIND 205-101]" severity="INFO" keynum="210" content="Exploring resource sharing." tag=""/>
 	<Message prefix="[BIND 205-101]" severity="INFO" keynum="206" content="Binding ..." tag=""/>
 	<Message prefix="[BIND 205-100]" severity="INFO" keynum="438" content="Finished micro-architecture generation." tag=""/>
-	<Message prefix="[HLS 200-111]" severity="INFO" keynum="474" content=" Elapsed time: 0.01 seconds; current allocated memory: 212.364 MB." tag=""/>
+	<Message prefix="[HLS 200-111]" severity="INFO" keynum="474" content=" Elapsed time: 0.02 seconds; current allocated memory: 212.377 MB." tag=""/>
 	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1477" content="----------------------------------------------------------------" tag=""/>
 	<Message prefix="[HLS 200-42]" severity="INFO" keynum="HLS_42_1438" content="-- Implementing module &apos;p_hls_fptosi_float_i&apos;" tag=""/>
 	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1478" content="----------------------------------------------------------------" tag=""/>
@@ -81,13 +81,13 @@ more than one sub loop." tag=""/>
 	<Message prefix="[SCHED 204-61]" severity="INFO" keynum="112" content="Pipelining function &apos;__hls_fptosi_float_i&apos;." tag=""/>
 	<Message prefix="[SCHED 204-61]" severity="INFO" keynum="110" content="Pipelining result : Target II = 1, Final II = 1, Depth = 2." tag=""/>
 	<Message prefix="[SCHED 204-11]" severity="INFO" keynum="138" content="Finished scheduling." tag=""/>
-	<Message prefix="[HLS 200-111]" severity="INFO" keynum="474" content=" Elapsed time: 0.05 seconds; current allocated memory: 212.569 MB." tag=""/>
+	<Message prefix="[HLS 200-111]" severity="INFO" keynum="474" content=" Elapsed time: 0.05 seconds; current allocated memory: 212.551 MB." tag=""/>
 	<Message prefix="[BIND 205-100]" severity="INFO" keynum="439" content="Starting micro-architecture generation ..." tag=""/>
 	<Message prefix="[BIND 205-101]" severity="INFO" keynum="211" content="Performing variable lifetime analysis." tag=""/>
 	<Message prefix="[BIND 205-101]" severity="INFO" keynum="210" content="Exploring resource sharing." tag=""/>
 	<Message prefix="[BIND 205-101]" severity="INFO" keynum="206" content="Binding ..." tag=""/>
 	<Message prefix="[BIND 205-100]" severity="INFO" keynum="438" content="Finished micro-architecture generation." tag=""/>
-	<Message prefix="[HLS 200-111]" severity="INFO" keynum="474" content=" Elapsed time: 0.02 seconds; current allocated memory: 212.674 MB." tag=""/>
+	<Message prefix="[HLS 200-111]" severity="INFO" keynum="474" content=" Elapsed time: 0.03 seconds; current allocated memory: 212.656 MB." tag=""/>
 	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1477" content="----------------------------------------------------------------" tag=""/>
 	<Message prefix="[HLS 200-42]" severity="INFO" keynum="HLS_42_1438" content="-- Implementing module &apos;cnn&apos;" tag=""/>
 	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1478" content="----------------------------------------------------------------" tag=""/>
@@ -96,21 +96,21 @@ more than one sub loop." tag=""/>
 	<Message prefix="[SCHED 204-65]" severity="WARNING" keynum="150" content="Unable to satisfy pipeline directive: Loop contains subloop(s) not being unrolled or flattened." tag=""/>
 	<Message prefix="[SCHED 204-21]" severity="WARNING" keynum="137" content="Estimated clock period (10.0155ns) exceeds the target (target clock period: 10ns, clock uncertainty: 1.25ns, effective delay budget: 8.75ns)." tag=""/>
 	<Message prefix="[SCHED 204-21]" severity="WARNING" keynum="135" content="The critical path consists of the following:
-	&apos;call&apos; operation (&apos;tmp_4&apos;, deeplib/main.cpp:79) to &apos;Axi_Transfer&apos; (3.6 ns)
-	&apos;sitofp&apos; operation (&apos;Temproray&apos;, deeplib/main.cpp:79) (6.41 ns)" tag=""/>
+	&apos;call&apos; operation (&apos;tmp_4&apos;, deeplib/main.cpp:81) to &apos;Axi_Transfer&apos; (3.6 ns)
+	&apos;sitofp&apos; operation (&apos;Temproray&apos;, deeplib/main.cpp:81) (6.41 ns)" tag=""/>
 	<Message prefix="[SCHED 204-11]" severity="INFO" keynum="138" content="Finished scheduling." tag=""/>
-	<Message prefix="[HLS 200-111]" severity="INFO" keynum="474" content=" Elapsed time: 0.96 seconds; current allocated memory: 216.474 MB." tag=""/>
+	<Message prefix="[HLS 200-111]" severity="INFO" keynum="474" content=" Elapsed time: 0.97 seconds; current allocated memory: 216.458 MB." tag=""/>
 	<Message prefix="[BIND 205-100]" severity="INFO" keynum="439" content="Starting micro-architecture generation ..." tag=""/>
 	<Message prefix="[BIND 205-101]" severity="INFO" keynum="211" content="Performing variable lifetime analysis." tag=""/>
 	<Message prefix="[BIND 205-101]" severity="INFO" keynum="210" content="Exploring resource sharing." tag=""/>
 	<Message prefix="[BIND 205-101]" severity="INFO" keynum="206" content="Binding ..." tag=""/>
 	<Message prefix="[BIND 205-100]" severity="INFO" keynum="438" content="Finished micro-architecture generation." tag=""/>
-	<Message prefix="[HLS 200-111]" severity="INFO" keynum="474" content=" Elapsed time: 1.27 seconds; current allocated memory: 219.970 MB." tag=""/>
+	<Message prefix="[HLS 200-111]" severity="INFO" keynum="474" content=" Elapsed time: 1.2 seconds; current allocated memory: 219.970 MB." tag=""/>
 	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1483" content="----------------------------------------------------------------" tag=""/>
 	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1484" content="-- Generating RTL for module &apos;Axi_Transfer&apos;" tag=""/>
 	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1485" content="----------------------------------------------------------------" tag=""/>
 	<Message prefix="[RTGEN 206-100]" severity="INFO" keynum="369" content="Finished creating RTL model for &apos;Axi_Transfer&apos;." tag=""/>
-	<Message prefix="[HLS 200-111]" severity="INFO" keynum="474" content=" Elapsed time: 1.11 seconds; current allocated memory: 220.521 MB." tag=""/>
+	<Message prefix="[HLS 200-111]" severity="INFO" keynum="474" content=" Elapsed time: 1.09 seconds; current allocated memory: 220.522 MB." tag=""/>
 	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1483" content="----------------------------------------------------------------" tag=""/>
 	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1484" content="-- Generating RTL for module &apos;p_hls_fptosi_float_i&apos;" tag=""/>
 	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1485" content="----------------------------------------------------------------" tag=""/>
@@ -151,16 +151,16 @@ more than one sub loop." tag=""/>
 	<Message prefix="[RTGEN 206-100]" severity="INFO" keynum="368" content="Generating core module &apos;cnn_sdiv_32s_32s_ibs&apos;: 2 instance(s)." tag=""/>
 	<Message prefix="[RTGEN 206-100]" severity="INFO" keynum="368" content="Generating core module &apos;cnn_sitofp_32ns_3eOg&apos;: 1 instance(s)." tag=""/>
 	<Message prefix="[RTGEN 206-100]" severity="INFO" keynum="369" content="Finished creating RTL model for &apos;cnn&apos;." tag=""/>
-	<Message prefix="[HLS 200-111]" severity="INFO" keynum="474" content=" Elapsed time: 0.49 seconds; current allocated memory: 228.335 MB." tag=""/>
+	<Message prefix="[HLS 200-111]" severity="INFO" keynum="474" content=" Elapsed time: 0.51 seconds; current allocated memory: 228.335 MB." tag=""/>
 	<Message prefix="[RTMG 210-282]" severity="INFO" keynum="RTMG_282_1796" content="Generating pipelined core: &apos;cnn_sdiv_32ns_32sg8j_div&apos;" tag=""/>
 	<Message prefix="[RTMG 210-282]" severity="INFO" keynum="RTMG_282_1796" content="Generating pipelined core: &apos;cnn_mul_64ns_32nshbi_MulnS_0&apos;" tag=""/>
 	<Message prefix="[RTMG 210-282]" severity="INFO" keynum="RTMG_282_1796" content="Generating pipelined core: &apos;cnn_sdiv_32s_32s_ibs_div&apos;" tag=""/>
 	<Message prefix="[RTMG 210-278]" severity="INFO" keynum="RTMG_278_1790" content="Implementing memory &apos;cnn_Input_ram (RAM)&apos; using block RAMs." tag=""/>
 	<Message prefix="[RTMG 210-278]" severity="INFO" keynum="RTMG_278_1790" content="Implementing memory &apos;cnn_Bias_ram (RAM)&apos; using block RAMs." tag=""/>
 	<Message prefix="[RTMG 210-278]" severity="INFO" keynum="RTMG_278_1790" content="Implementing memory &apos;cnn_Parameters_ram (RAM)&apos; using distributed RAMs." tag=""/>
-	<Message prefix="[HLS 200-111]" severity="INFO" keynum="473" content="Finished generating all RTL models Time (s): cpu = 00:00:54 ; elapsed = 00:00:41 . Memory (MB): peak = 618.254 ; gain = 271.672 ; free physical = 30710 ; free virtual = 111700" tag=""/>
+	<Message prefix="[HLS 200-111]" severity="INFO" keynum="473" content="Finished generating all RTL models Time (s): cpu = 00:00:54 ; elapsed = 00:00:41 . Memory (MB): peak = 618.250 ; gain = 271.672 ; free physical = 35453 ; free virtual = 116827" tag=""/>
 	<Message prefix="[SYSC 207-301]" severity="INFO" keynum="SYSC_301_1065" content="Generating SystemC RTL for cnn." tag=""/>
 	<Message prefix="[VHDL 208-304]" severity="INFO" keynum="VHDL_304_1066" content="Generating VHDL RTL for cnn." tag=""/>
 	<Message prefix="[VLOG 209-307]" severity="INFO" keynum="VLOG_307_1067" content="Generating Verilog RTL for cnn." tag=""/>
-	<Message prefix="[HLS 200-112]" severity="INFO" keynum="472" content="Total elapsed time: 40.98 seconds; peak allocated memory: 228.335 MB." tag=""/>
+	<Message prefix="[HLS 200-112]" severity="INFO" keynum="472" content="Total elapsed time: 41.19 seconds; peak allocated memory: 228.335 MB." tag=""/>
 </Messages>

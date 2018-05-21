@@ -54,7 +54,7 @@ set XDCFiles {}
 set ExtraGlobalOptions {"area_timing" 1 "clock_gate" 1 "impl_flow" map "power_gate" 0}
 set PlatformFiles {{DefaultPlatform {xilinx/zynq/zynq xilinx/zynq/zynq_fpv6}}}
 set DefaultPlatform "DefaultPlatform"
-set TBTVFileNotFound "../test.cpp"
+set TBTVFileNotFound "../../test.cpp"
 set AppFile "../vivado_hls.app"
 set ApsFile "solution1.aps"
 set AvePath "../.."
