@@ -4,12 +4,19 @@ CNNIOT is a lightweight deep learning framework in python, to run convolution ne
 
 ## How To Use
 
-For a quick overview on the CNNIOT please watch [my video tutorial.](https://www.youtube.com/watch?v=0sYbDA_sCZI).
+For a quick overview on the CNNIOT please watch [my video tutorial](https://www.youtube.com/watch?v=0sYbDA_sCZI).
 
 * Copy Bitstream.bit, Bitstream.tcl, CNNIOT.py into your project folder inside pynq
 * import CNNIOT in your python file
 
 Lenet_FPGA.ipynb is an example of our library.
+
+## How to extract weights and bias 
+
+For extracting weights and bias from pretrained model in pytorch please watch [my video tutorial](https://www.youtube.com/watch?v=TKpMIX_FJZI&t=114s).
+You can also use following resouces from PyTorch
+* [Torchvison](https://pytorch.org/docs/master/torchvision/models.html).
+* [Numpy Bridge](https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html#numpy-bridge).
 
 ### PYNQ board
 
@@ -79,9 +86,6 @@ Output= FC.forward(data,CNNIOT.dma)
 * precision: user can control the float number precision of input and output of layer
 * CNNIOT.dma: user can go with the default bitsteram or use their own bitstream;
 
-## New Features
-
-* FPGA
 
 ### High Level Synthesis
 
@@ -151,7 +155,8 @@ For generating bitstream using vivado please watch [my video tutorial.](https://
 * Yezhou Yang
 * Mehdi Ghasemi
 
+### References
 
-## Acknowledgement
+* Paszke A, Gross S, Chintala S, Chanan G, Yang E, DeVito Z, Lin Z, Desmaison A, Antiga L, Lerer A. Automatic differentiation in PyTorch.
 
 
